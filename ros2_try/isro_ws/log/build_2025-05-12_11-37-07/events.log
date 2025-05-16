@@ -1,0 +1,698 @@
+[0.000000] (-) TimerEvent: {}
+[0.000166] (camera_pub) JobQueued: {'identifier': 'camera_pub', 'dependencies': OrderedDict()}
+[0.000197] (orbslam_pub) JobQueued: {'identifier': 'orbslam_pub', 'dependencies': OrderedDict()}
+[0.000584] (camera_pub) JobStarted: {'identifier': 'camera_pub'}
+[0.007858] (orbslam_pub) JobStarted: {'identifier': 'orbslam_pub'}
+[0.099517] (-) TimerEvent: {}
+[0.199820] (-) TimerEvent: {}
+[0.273407] (orbslam_pub) JobProgress: {'identifier': 'orbslam_pub', 'progress': 'cmake'}
+[0.274762] (orbslam_pub) JobProgress: {'identifier': 'orbslam_pub', 'progress': 'build'}
+[0.274916] (orbslam_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub', '--', '-j16', '-l16'], 'cwd': '/home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'niraamay'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/niraamay'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'cinnamon'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('MANAGERPID', '2083'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2098'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f263b73f2a715916c9176726821619e'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/niraamay/isro/ros2_try/isro_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niraamay'), ('JOURNAL_STREAM', '8:43210'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/niraamay/.local/bin:/home/niraamay/miniconda3/condabin:/home/niraamay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nhp:@/tmp/.ICE-unix/2099,unix/nhp:/tmp/.ICE-unix/2099'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', 'c53b71cd6b2545ea91200807ccf00c6c'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'X-Cinnamon'), ('TILIX_ID', 'd0899fdc-31f5-4d32-a534-eb8dfddea816'), ('XDG_SESSION_DESKTOP', 'cinnamon'), ('XAUTHORITY', '/home/niraamay/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/niraamay'), ('AMENT_PREFIX_PATH', '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/niraamay/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'cinnamon'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-cinnamon:/etc/xdg'), ('CONDA_EXE', '/home/niraamay/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f263b73f2a715916c9176726821619e'), ('XDG_DATA_DIRS', '/usr/share/cinnamon:/usr/share/gnome:/home/niraamay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub:/opt/ros/humble')]), 'shell': False}
+[0.299948] (-) TimerEvent: {}
+[0.317056] (orbslam_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target getpose\x1b[0m\n'}
+[0.345006] (orbslam_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o\x1b[0m\n'}
+[0.400159] (-) TimerEvent: {}
+[0.500442] (-) TimerEvent: {}
+[0.600756] (-) TimerEvent: {}
+[0.610333] (camera_pub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_pub', 'build', '--build-base', '/home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/build', 'install', '--record', '/home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/niraamay/isro/ros2_try/isro_ws/src/camera_pub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'niraamay', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/niraamay', 'CONDA_SHLVL': '0', 'DESKTOP_SESSION': 'cinnamon', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'MANAGERPID': '2083', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2098', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6f263b73f2a715916c9176726821619e', 'COLORTERM': 'truecolor', '_CE_M': '', 'QT_QPA_PLATFORMTHEME': 'qt5ct', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/niraamay/isro/ros2_try/isro_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'niraamay', 'JOURNAL_STREAM': '8:43210', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/niraamay/.local/bin:/home/niraamay/miniconda3/condabin:/home/niraamay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nhp:@/tmp/.ICE-unix/2099,unix/nhp:/tmp/.ICE-unix/2099', 'GDM_LANG': 'en_US', 'INVOCATION_ID': 'c53b71cd6b2545ea91200807ccf00c6c', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'X-Cinnamon', 'TILIX_ID': 'd0899fdc-31f5-4d32-a534-eb8dfddea816', 'XDG_SESSION_DESKTOP': 'cinnamon', 'XAUTHORITY': '/home/niraamay/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/niraamay', 'AMENT_PREFIX_PATH': '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub:/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/niraamay/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'cinnamon', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'PWD': '/home/niraamay/isro/ros2_try/isro_ws/build/camera_pub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-cinnamon:/etc/xdg', 'CONDA_EXE': '/home/niraamay/miniconda3/bin/conda', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6f263b73f2a715916c9176726821619e', 'XDG_DATA_DIRS': '/usr/share/cinnamon:/usr/share/gnome:/home/niraamay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub'}, 'shell': False}
+[0.629901] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:10:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kmissing terminating " character\n'}
+[0.630114] (orbslam_pub) StderrLine: {'line': b'   10 | #include \x1b[01;35m\x1b[K"\x1b[m\x1b[Kgeometry_msgs/msg/pose.hppr\n'}
+[0.630180] (orbslam_pub) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[0.630234] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:10:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K#include expects "FILENAME" or <FILENAME>\n'}
+[0.630286] (orbslam_pub) StderrLine: {'line': b'   10 | #include \x1b[01;31m\x1b[K"geometry_msgs/msg/pose.hppr\x1b[m\x1b[K\n'}
+[0.630335] (orbslam_pub) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.700892] (-) TimerEvent: {}
+[0.801206] (-) TimerEvent: {}
+[0.857537] (camera_pub) StdoutLine: {'line': b'running egg_info\n'}
+[0.858315] (camera_pub) StdoutLine: {'line': b'writing ../../build/camera_pub/camera_pub.egg-info/PKG-INFO\n'}
+[0.858418] (camera_pub) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_pub/camera_pub.egg-info/dependency_links.txt\n'}
+[0.858538] (camera_pub) StdoutLine: {'line': b'writing entry points to ../../build/camera_pub/camera_pub.egg-info/entry_points.txt\n'}
+[0.858622] (camera_pub) StdoutLine: {'line': b'writing requirements to ../../build/camera_pub/camera_pub.egg-info/requires.txt\n'}
+[0.858709] (camera_pub) StdoutLine: {'line': b'writing top-level names to ../../build/camera_pub/camera_pub.egg-info/top_level.txt\n'}
+[0.860413] (camera_pub) StdoutLine: {'line': b"reading manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'\n"}
+[0.860556] (camera_pub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.861194] (camera_pub) StdoutLine: {'line': b"writing manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'\n"}
+[0.861274] (camera_pub) StdoutLine: {'line': b'running build\n'}
+[0.861352] (camera_pub) StdoutLine: {'line': b'running build_py\n'}
+[0.861512] (camera_pub) StdoutLine: {'line': b'running install\n'}
+[0.861981] (camera_pub) StdoutLine: {'line': b'running install_lib\n'}
+[0.863220] (camera_pub) StdoutLine: {'line': b'running install_data\n'}
+[0.863371] (camera_pub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.865060] (camera_pub) StdoutLine: {'line': b"removing '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.865241] (camera_pub) StdoutLine: {'line': b'Copying ../../build/camera_pub/camera_pub.egg-info to /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub-0.0.0-py3.10.egg-info\n'}
+[0.865898] (camera_pub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.887059] (camera_pub) StdoutLine: {'line': b'Installing camera script to /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/camera_pub\n'}
+[0.887383] (camera_pub) StdoutLine: {'line': b"writing list of installed files to '/home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/install.log'\n"}
+[0.901318] (-) TimerEvent: {}
+[0.911310] (camera_pub) CommandEnded: {'returncode': 0}
+[0.923472] (camera_pub) JobEnded: {'identifier': 'camera_pub', 'rc': 0}
+[1.001514] (-) TimerEvent: {}
+[1.101998] (-) TimerEvent: {}
+[1.202473] (-) TimerEvent: {}
+[1.302806] (-) TimerEvent: {}
+[1.403160] (-) TimerEvent: {}
+[1.503657] (-) TimerEvent: {}
+[1.604055] (-) TimerEvent: {}
+[1.704428] (-) TimerEvent: {}
+[1.804731] (-) TimerEvent: {}
+[1.905111] (-) TimerEvent: {}
+[2.005416] (-) TimerEvent: {}
+[2.105786] (-) TimerEvent: {}
+[2.206349] (-) TimerEvent: {}
+[2.306679] (-) TimerEvent: {}
+[2.407141] (-) TimerEvent: {}
+[2.507530] (-) TimerEvent: {}
+[2.608003] (-) TimerEvent: {}
+[2.708438] (-) TimerEvent: {}
+[2.808757] (-) TimerEvent: {}
+[2.909059] (-) TimerEvent: {}
+[3.009417] (-) TimerEvent: {}
+[3.109811] (-) TimerEvent: {}
+[3.210100] (-) TimerEvent: {}
+[3.310487] (-) TimerEvent: {}
+[3.410876] (-) TimerEvent: {}
+[3.511166] (-) TimerEvent: {}
+[3.611543] (-) TimerEvent: {}
+[3.711929] (-) TimerEvent: {}
+[3.812171] (-) TimerEvent: {}
+[3.912397] (-) TimerEvent: {}
+[4.012661] (-) TimerEvent: {}
+[4.112994] (-) TimerEvent: {}
+[4.213336] (-) TimerEvent: {}
+[4.313678] (-) TimerEvent: {}
+[4.375259] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[4.375388] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.375425] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.375456] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.375494] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.375522] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.375550] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.375580] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.375607] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.375632] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.375657] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.375687] (orbslam_pub) StderrLine: {'line': b'   62 |  typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[4.375715] (orbslam_pub) StderrLine: {'line': b'      |                                                                       \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.375740] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.375766] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.375791] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.375817] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.375842] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.375867] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.375892] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.375917] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.375941] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.375965] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.375990] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.376020] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.376046] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.376071] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.376098] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.376162] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.376230] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.386986] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.387068] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.387102] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.387130] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.387159] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.387191] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.387218] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.387246] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.387272] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.387297] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.387322] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.387351] (orbslam_pub) StderrLine: {'line': b'   59 | ef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.387379] (orbslam_pub) StderrLine: {'line': b'      |                                                                       \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.387405] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.387430] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.387454] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.387478] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.387503] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.387528] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.387552] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.387577] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.387602] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.387626] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.387653] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.387678] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.387703] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.387727] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.387751] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.387776] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.387801] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.387825] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.387849] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.387875] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.387899] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.387922] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.387946] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.387971] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.387998] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.388028] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.388054] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.388079] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.388107] (orbslam_pub) StderrLine: {'line': b'   60 | ef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.388133] (orbslam_pub) StderrLine: {'line': b'      |                                                                       \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.388160] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.388184] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.388211] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.388235] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.388263] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.388287] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.388311] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.388334] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.388358] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.388383] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.388408] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.388432] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.388458] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.388482] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.388506] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.388530] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.388554] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.413819] (-) TimerEvent: {}
+[4.514046] (-) TimerEvent: {}
+[4.609884] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[4.610043] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.610080] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.610109] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.610138] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.610166] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.610195] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.610222] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.610247] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.610272] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.610299] (orbslam_pub) StderrLine: {'line': b'/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.610328] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[4.610364] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.610398] (orbslam_pub) StderrLine: {'line': b'   62 |    typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[4.610426] (orbslam_pub) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.610453] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.610479] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.610505] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.610531] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.610556] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.610581] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.610606] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.610632] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.610656] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.610682] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.610707] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.610734] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.610759] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.610786] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.610810] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.610836] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.610861] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.614214] (-) TimerEvent: {}
+[4.624971] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[4.625056] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.625094] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.625123] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.625156] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.625184] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.625210] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.625235] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.625260] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.625285] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.625310] (orbslam_pub) StderrLine: {'line': b'/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.625337] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[4.625362] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.625390] (orbslam_pub) StderrLine: {'line': b'   62 |    typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[4.625417] (orbslam_pub) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.625442] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.625466] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.625492] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.625520] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.625545] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.625571] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.625597] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.625621] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.625645] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.625669] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.625693] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.625718] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.625742] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.625767] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.625795] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.625820] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.625845] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.640144] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.640256] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.640292] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.640346] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.640376] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.640407] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.640435] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.640462] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.640488] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.640514] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.640542] (orbslam_pub) StderrLine: {'line': b'/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.640573] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[4.640600] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.640631] (orbslam_pub) StderrLine: {'line': b'   59 | edef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.640673] (orbslam_pub) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.640700] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.640727] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.640754] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.640781] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.640807] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.640836] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.640863] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.640892] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.640918] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.640946] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.640971] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.640998] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.641023] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.641049] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.641074] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.641099] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.641124] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.641149] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.641176] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.641201] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.641227] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.641253] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.641278] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.641303] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.641329] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.641353] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.641378] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.641404] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.641436] (orbslam_pub) StderrLine: {'line': b'   60 | edef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.641467] (orbslam_pub) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.641495] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.641522] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.641548] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.641575] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.641600] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.641626] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.641651] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.641676] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.641702] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.641727] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.641753] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.641778] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.641803] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.641828] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.641853] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.641881] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.641907] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.677696] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.677817] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.677852] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.677880] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.677908] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.677935] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.677961] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.677987] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.678020] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.678045] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.678072] (orbslam_pub) StderrLine: {'line': b'/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.678100] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[4.678127] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.678155] (orbslam_pub) StderrLine: {'line': b'   59 | edef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.678180] (orbslam_pub) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.678205] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.678230] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.678255] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.678279] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.678303] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.678333] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.678361] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.678386] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.678411] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.678437] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.678463] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.678489] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.678514] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.678540] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.678566] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.678592] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.678619] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.685504] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.685580] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.685614] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.685648] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.685677] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.685705] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.685733] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.685760] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.685786] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.685813] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.685840] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.685871] (orbslam_pub) StderrLine: {'line': b'   60 | edef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.685899] (orbslam_pub) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.685926] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.685953] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.685980] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.686005] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.686030] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.686055] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.686081] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.686107] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.686133] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.686163] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.686190] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.686219] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.686245] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.686270] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.686296] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.686321] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.686348] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.714392] (-) TimerEvent: {}
+[4.716968] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.717059] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.717094] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.717123] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.717151] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.717177] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.717205] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.717230] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.717255] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.717280] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.717305] (orbslam_pub) StderrLine: {'line': b'/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.717336] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[4.717361] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.717389] (orbslam_pub) StderrLine: {'line': b'   59 | edef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.717415] (orbslam_pub) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.717440] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.717466] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.717493] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.717527] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.717553] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.717580] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.717605] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.717631] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.717656] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.717681] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.717706] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.717731] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.717756] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.717781] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.717805] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.717830] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.717854] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.717878] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.717902] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.717925] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.717950] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.717974] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.717998] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.718023] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.718046] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.718074] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.718098] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.718122] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.718151] (orbslam_pub) StderrLine: {'line': b'   60 | edef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.718176] (orbslam_pub) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.718203] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.718229] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.718254] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.718279] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.718305] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.718330] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.718355] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.718380] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.718405] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.718429] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.718453] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.718478] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.718502] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.718525] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.718549] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.718574] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.718598] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.814587] (-) TimerEvent: {}
+[4.826416] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[4.826526] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.826605] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.826634] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.826665] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.826700] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.826727] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.826754] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.826781] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.826807] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.826833] (orbslam_pub) StderrLine: {'line': b'/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.826859] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[4.826886] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.826915] (orbslam_pub) StderrLine: {'line': b'   62 |    typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[4.826942] (orbslam_pub) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.826970] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.826997] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.827024] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.827051] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.827078] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.827104] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.827130] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.827159] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.827186] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.827212] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.827238] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.827263] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.827287] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.827311] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.827337] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.827363] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.827389] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.842954] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.843067] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.843103] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.843134] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.843164] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.843191] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.843221] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.843249] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.843278] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.843305] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.843334] (orbslam_pub) StderrLine: {'line': b'/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.843364] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[4.843394] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.843427] (orbslam_pub) StderrLine: {'line': b'   59 | edef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.843458] (orbslam_pub) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.843625] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.843665] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.843696] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.843724] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.843752] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.843786] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.843813] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.843841] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.843869] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.843895] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.843923] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.843949] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.843979] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.844006] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.844036] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.844063] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.844089] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.844115] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.844141] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.844170] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.844198] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.844226] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.844252] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.844278] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.844303] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.844330] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.844356] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.844382] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.844412] (orbslam_pub) StderrLine: {'line': b'   60 | edef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.844441] (orbslam_pub) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.844467] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.844494] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.844521] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.844548] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.844577] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.844603] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.844628] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.844654] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.844679] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.844703] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.844728] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.844752] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.844777] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.844802] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.844827] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.844852] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.844877] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.866906] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.867020] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.867055] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.867092] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.867122] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.867152] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.867180] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.867208] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.867234] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.867263] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.867290] (orbslam_pub) StderrLine: {'line': b'/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.867318] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[4.867344] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.867373] (orbslam_pub) StderrLine: {'line': b'   59 | edef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[4.867400] (orbslam_pub) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.867425] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.867450] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.867476] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.867500] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.867525] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.867550] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.867577] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.867602] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.867626] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.867651] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.867675] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.867699] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.867723] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.867748] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.867772] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.867797] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.867821] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.874314] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[4.874398] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[4.874433] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[4.874464] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.874493] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.874520] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.874547] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.874575] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.874607] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.874632] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.874659] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.874690] (orbslam_pub) StderrLine: {'line': b'   60 | edef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[4.874723] (orbslam_pub) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.874749] (orbslam_pub) StderrLine: {'line': b'\n'}
+[4.874775] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[4.874801] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[4.874827] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[4.874852] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[4.874876] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[4.874902] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[4.874927] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:28\x1b[m\x1b[K,\n'}
+[4.874951] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23\x1b[m\x1b[K,\n'}
+[4.874977] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[4.875002] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[4.875026] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[4.875052] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31\x1b[m\x1b[K,\n'}
+[4.875077] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14\x1b[m\x1b[K:\n'}
+[4.875102] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[4.875127] (orbslam_pub) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[4.875152] (orbslam_pub) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.914804] (-) TimerEvent: {}
+[5.015014] (-) TimerEvent: {}
+[5.115325] (-) TimerEvent: {}
+[5.215545] (-) TimerEvent: {}
+[5.315872] (-) TimerEvent: {}
+[5.416183] (-) TimerEvent: {}
+[5.516404] (-) TimerEvent: {}
+[5.613886] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:80:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.614011] (orbslam_pub) StderrLine: {'line': b'   80 |   rclcpp::Publisher<\x1b[01;31m\x1b[Kgeometry_msgs\x1b[m\x1b[K::msg::Pose>::SharedPtr pose_publisher_;\n'}
+[5.614051] (orbslam_pub) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.614083] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:80:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.614116] (orbslam_pub) StderrLine: {'line': b'   80 |   rclcpp::Publisher<geometry_msgs::msg::Pose\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr pose_publisher_;\n'}
+[5.614147] (orbslam_pub) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.614177] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:80:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[5.614207] (orbslam_pub) StderrLine: {'line': b'   80 |   rclcpp::Publisher<geometry_msgs::msg::Pose>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K pose_publisher_;\n'}
+[5.614236] (orbslam_pub) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.614265] (orbslam_pub) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.616488] (-) TimerEvent: {}
+[5.621766] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:80:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_publisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KPosePublisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.621848] (orbslam_pub) StderrLine: {'line': b'   80 |   rclcpp::Publisher<geometry_msgs::msg::Pose>::SharedPtr \x1b[01;31m\x1b[Kpose_publisher_\x1b[m\x1b[K;\n'}
+[5.621886] (orbslam_pub) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.621926] (orbslam_pub) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[KPosePublisher\x1b[m\x1b[K\n'}
+[5.642328] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPosePublisher::PosePublisher(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.642494] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:29:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpose_publisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KPosePublisher\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.642580] (orbslam_pub) StderrLine: {'line': b'   29 |       \x1b[01;31m\x1b[Kpose_publisher_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::Pose>("orbslam_pose", 10);\n'}
+[5.642656] (orbslam_pub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.642727] (orbslam_pub) StderrLine: {'line': b'      |       \x1b[32m\x1b[KPosePublisher\x1b[m\x1b[K\n'}
+[5.661322] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:29:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.661496] (orbslam_pub) StderrLine: {'line': b'   29 |       pose_publisher_ = this->create_publisher<\x1b[01;31m\x1b[Kgeometry_msgs\x1b[m\x1b[K::msg::Pose>("orbslam_pose", 10);\n'}
+[5.661576] (orbslam_pub) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.661644] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:29:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[5.661711] (orbslam_pub) StderrLine: {'line': b'   29 |       pose_publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<geometry_msgs::msg::Pose>\x1b[m\x1b[K("orbslam_pose", 10);\n'}
+[5.661777] (orbslam_pub) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.661841] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:29:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPosePublisher::create_publisher<<expression error> >(const char [13], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.661908] (orbslam_pub) StderrLine: {'line': b'   29 |     pose_publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<geometry_msgs::msg::Pose>("orbslam_pose", 10)\x1b[m\x1b[K;\n'}
+[5.661972] (orbslam_pub) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.662035] (orbslam_pub) StderrLine: {'line': b'\n'}
+[5.662099] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[5.662163] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[5.662226] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.662288] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:6\x1b[m\x1b[K:\n'}
+[5.662350] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.662417] (orbslam_pub) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[5.662479] (orbslam_pub) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.662544] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[5.662607] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:29:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.662668] (orbslam_pub) StderrLine: {'line': b'   29 |     pose_publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<geometry_msgs::msg::Pose>("orbslam_pose", 10)\x1b[m\x1b[K;\n'}
+[5.662729] (orbslam_pub) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.662790] (orbslam_pub) StderrLine: {'line': b'\n'}
+[5.669185] (orbslam_pub) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[5.669329] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[5.669396] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[5.669457] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.669517] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.669586] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.669644] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.669701] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.669758] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.669816] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.669873] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.669930] (orbslam_pub) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:6\x1b[m\x1b[K:\n'}
+[5.669988] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PosePublisher::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.670047] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:53:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kheader\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.670116] (orbslam_pub) StderrLine: {'line': b'   53 |     RCLCPP_INFO(this->get_logger(), "TIMESTAMP: %d.%09d", msg.\x1b[01;31m\x1b[Kheader\x1b[m\x1b[K.stamp.sec, msg.header.stamp.nanosec);\n'}
+[5.670175] (orbslam_pub) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.670232] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:53:85:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst class std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kheader\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.670296] (orbslam_pub) StderrLine: {'line': b'   53 | O(this->get_logger(), "TIMESTAMP: %d.%09d", msg.header.stamp.sec, msg.\x1b[01;31m\x1b[Kheader\x1b[m\x1b[K.stamp.nanosec);\n'}
+[5.670353] (orbslam_pub) StderrLine: {'line': b'      |                                                                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.670409] (orbslam_pub) StderrLine: {'line': b'\n'}
+[5.716620] (-) TimerEvent: {}
+[5.816878] (-) TimerEvent: {}
+[5.917149] (-) TimerEvent: {}
+[6.017378] (-) TimerEvent: {}
+[6.117648] (-) TimerEvent: {}
+[6.217935] (-) TimerEvent: {}
+[6.318197] (-) TimerEvent: {}
+[6.418460] (-) TimerEvent: {}
+[6.518686] (-) TimerEvent: {}
+[6.619002] (-) TimerEvent: {}
+[6.719243] (-) TimerEvent: {}
+[6.819499] (-) TimerEvent: {}
+[6.919731] (-) TimerEvent: {}
+[7.020003] (-) TimerEvent: {}
+[7.120280] (-) TimerEvent: {}
+[7.220556] (-) TimerEvent: {}
+[7.320789] (-) TimerEvent: {}
+[7.421074] (-) TimerEvent: {}
+[7.521435] (-) TimerEvent: {}
+[7.621728] (-) TimerEvent: {}
+[7.722048] (-) TimerEvent: {}
+[7.822416] (-) TimerEvent: {}
+[7.922711] (-) TimerEvent: {}
+[8.022954] (-) TimerEvent: {}
+[8.123291] (-) TimerEvent: {}
+[8.223624] (-) TimerEvent: {}
+[8.323897] (-) TimerEvent: {}
+[8.424197] (-) TimerEvent: {}
+[8.524463] (-) TimerEvent: {}
+[8.624735] (-) TimerEvent: {}
+[8.725066] (-) TimerEvent: {}
+[8.825382] (-) TimerEvent: {}
+[8.925713] (-) TimerEvent: {}
+[9.026027] (-) TimerEvent: {}
+[9.126340] (-) TimerEvent: {}
+[9.226560] (-) TimerEvent: {}
+[9.326882] (-) TimerEvent: {}
+[9.427213] (-) TimerEvent: {}
+[9.527533] (-) TimerEvent: {}
+[9.627856] (-) TimerEvent: {}
+[9.650076] (orbslam_pub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/getpose.dir/build.make:76: CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o] Error 1\n'}
+[9.650301] (orbslam_pub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/getpose.dir/all] Error 2\n'}
+[9.650440] (orbslam_pub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.651850] (orbslam_pub) CommandEnded: {'returncode': 2}
+[9.655561] (orbslam_pub) JobEnded: {'identifier': 'orbslam_pub', 'rc': 2}
+[9.666036] (-) EventReactorShutdown: {}

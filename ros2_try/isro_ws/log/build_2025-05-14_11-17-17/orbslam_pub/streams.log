@@ -1,0 +1,536 @@
+[0.006s] Invoking command in '/home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub -- -j16 -l16
+[0.029s] [35m[1mConsolidate compiler generated dependencies of target getpose[0m
+[0.045s] [ 50%] [32mBuilding CXX object CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o[0m
+[4.227s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[4.228s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[4.228s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[4.228s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.228s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.228s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.228s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.228s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.228s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.228s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.228s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.228s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[4.228s]       |                                                                          [01;35m[K^~~~~~~~~~[m[K
+[4.228s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.228s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.228s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.229s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.229s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.229s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[4.229s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.229s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.229s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.229s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.229s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.229s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.229s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.229s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.229s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.229s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.249s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.249s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[4.249s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[4.249s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.249s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.249s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.249s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.249s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.249s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.250s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.250s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.250s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.250s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[4.250s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.250s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.250s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.250s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.250s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.250s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[4.250s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.250s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.250s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.250s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.250s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.250s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.250s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.250s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.250s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.250s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.250s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.251s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.251s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.251s]       |                                                                                  [01;35m[K^~~~~~~~~~[m[K
+[4.251s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.251s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.251s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.252s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.252s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.252s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.252s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.252s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.252s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.252s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.632s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[4.632s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[4.632s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[4.632s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.632s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.632s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.632s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.633s] /home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >[m[K’:
+[4.633s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:[m[K   required from here
+[4.633s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.633s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[4.633s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.633s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.633s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.633s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.633s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.634s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.634s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.659s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[4.659s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[4.659s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[4.659s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.659s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.659s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.659s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.659s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.659s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.659s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.659s] /home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<6, g2o::SE3Quat>[m[K’:
+[4.659s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:[m[K   required from here
+[4.659s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.659s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[4.659s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.659s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.659s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.659s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.659s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.660s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.660s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[4.660s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.660s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.660s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.660s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.660s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.660s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.660s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.660s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.660s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.660s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.686s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.686s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[4.686s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[4.686s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.686s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.686s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.686s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.686s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.686s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.686s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.686s] /home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>[m[K’:
+[4.686s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:[m[K   required from here
+[4.686s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.686s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.686s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.686s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.687s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.687s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.687s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.687s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.687s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.687s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.688s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.688s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.688s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.688s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.688s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.688s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.688s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.688s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.689s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.751s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.751s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[4.751s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[4.751s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.751s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.751s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.751s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.751s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.751s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.752s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.752s] /home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[4.752s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:[m[K   required from here
+[4.752s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.752s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.752s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.752s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.752s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.752s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.752s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.752s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.752s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[4.752s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.752s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.752s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.752s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.752s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.752s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.752s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.752s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.752s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.752s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.765s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.765s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[4.765s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[4.765s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.765s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.765s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.765s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.765s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.765s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.765s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.765s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.765s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.765s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.765s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.765s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.766s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.766s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.766s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.766s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[4.766s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.766s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.766s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.766s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.766s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.766s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.766s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.766s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.766s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.766s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.819s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.820s] /home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>[m[K’:
+[4.820s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:[m[K   required from here
+[4.820s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.820s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[4.820s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.820s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.820s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[4.820s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.821s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.821s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.821s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[4.821s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.821s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.821s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[4.821s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[4.821s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[4.822s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[4.822s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[4.822s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[4.822s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[4.822s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[4.822s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[4.822s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[4.822s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[4.822s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[4.822s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[4.822s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[4.822s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[4.822s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[4.822s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[4.822s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[4.822s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[5.008s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[5.008s] /home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘[01m[Kclass g2o::BaseVertex<7, g2o::Sim3>[m[K’:
+[5.008s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:[m[K   required from here
+[5.008s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.008s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+[5.008s]       |                                                                  [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[5.008s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[5.008s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.008s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.009s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.009s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[5.009s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[5.009s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.009s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[5.009s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[5.024s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[5.024s] /home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>[m[K’:
+[5.024s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:[m[K   required from here
+[5.024s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.024s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[5.024s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[5.024s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[5.024s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[5.024s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.024s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[5.024s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[5.024s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[5.024s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[5.025s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.025s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[5.025s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[5.025s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[5.025s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[5.025s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[5.025s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.025s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[5.025s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[5.046s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[5.046s] /home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘[01m[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>[m[K’:
+[5.046s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:[m[K   required from here
+[5.046s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.046s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockType;
+[5.046s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[5.046s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[5.046s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.046s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[5.047s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[5.047s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.047s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[5.047s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[5.054s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[5.054s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+[5.054s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+[5.054s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.054s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.054s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.054s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.054s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.054s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[5.054s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[5.054s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[5.054s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::[01;35m[KFlags & AlignedBit[m[K ? Aligned : Unaligned > HessianBlockTransposedType;
+[5.054s]       |                                                                          [01;35m[K~~~~~~^~~~~~~~~~~~[m[K
+[5.054s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+[5.054s]                  from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+[5.054s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+[5.054s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+[5.055s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+[5.055s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+[5.055s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+[5.055s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+[5.055s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[5.055s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+[5.055s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+[5.055s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+[5.055s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[5.055s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.055s]   167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+[5.055s]       |                                     [01;36m[K^~~~~~~~~~[m[K
+[5.465s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:[m[K In member function ‘[01m[Kvoid PosePublisher::init()[m[K’:
+[5.465s] [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:33:65:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::subscribe<PosePublisher>(const char [12], int, void (PosePublisher::*)(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr), PosePublisher*, const char [4])[m[K’
+[5.465s]    33 |       subscription_ = [01;31m[Kimage_transport_->subscribe<PosePublisher>([m[K
+[5.465s]       |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.465s]    34 | [01;31m[K        "camera_feed",[m[K
+[5.465s]       |         [01;31m[K~~~~~~~~~~~~~~[m[K                                           
+[5.465s]    35 | [01;31m[K        10,[m[K
+[5.465s]       |         [01;31m[K~~~[m[K                                                      
+[5.465s]    36 | [01;31m[K        &PosePublisher::image_callback,[m[K
+[5.465s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                          
+[5.465s]    37 | [01;31m[K        this,[m[K
+[5.465s]       |         [01;31m[K~~~~~[m[K                                                    
+[5.465s]    38 | [01;31m[K        "raw"[m[K
+[5.466s]       |         [01;31m[K~~~~~[m[K                                                    
+[5.466s]    39 | [01;31m[K      )[m[K;
+[5.466s]       |       [01;31m[K~[m[K                                                          
+[5.466s] In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:12[m[K:
+[5.466s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:196:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), T*, const image_transport::TransportHints*) [with T = PosePublisher; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; image_transport::ImageTransport::ImageConstPtr = std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >][m[K’
+[5.466s]   196 |   Subscriber [01;36m[Ksubscribe[m[K(
+[5.466s]       |              [01;36m[K^~~~~~~~~[m[K
+[5.466s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:198:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kvoid (PosePublisher::*)(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’ {aka ‘[01m[Kvoid (PosePublisher::*)(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)[m[K’} to ‘[01m[Kvoid (PosePublisher::*)(const ImageConstPtr&)[m[K’ {aka ‘[01m[Kvoid (PosePublisher::*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)[m[K’}
+[5.466s]   198 |     [01;36m[Kvoid (T::* fp)(const ImageConstPtr &)[m[K, T * obj,
+[5.466s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.466s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:210:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), T*, const image_transport::TransportHints*, rclcpp::SubscriptionOptions) [with T = PosePublisher; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; image_transport::ImageTransport::ImageConstPtr = std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+[5.466s]   210 |   Subscriber [01;36m[Ksubscribe[m[K(
+[5.466s]       |              [01;36m[K^~~~~~~~~[m[K
+[5.466s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:210:14:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 5 provided
+[5.466s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:225:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), const std::shared_ptr<_Tp>&, const image_transport::TransportHints*) [with T = PosePublisher; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; image_transport::ImageTransport::ImageConstPtr = std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >][m[K’
+[5.466s]   225 |   Subscriber [01;36m[Ksubscribe[m[K(
+[5.466s]       |              [01;36m[K^~~~~~~~~[m[K
+[5.466s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:227:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kvoid (PosePublisher::*)(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’ {aka ‘[01m[Kvoid (PosePublisher::*)(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)[m[K’} to ‘[01m[Kvoid (PosePublisher::*)(const ImageConstPtr&)[m[K’ {aka ‘[01m[Kvoid (PosePublisher::*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)[m[K’}
+[5.466s]   227 |     [01;36m[Kvoid (T::* fp)(const ImageConstPtr &)[m[K,
+[5.466s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.466s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:240:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), const std::shared_ptr<_Tp>&, const image_transport::TransportHints*, rclcpp::SubscriptionOptions) [with T = PosePublisher; std::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; image_transport::ImageTransport::ImageConstPtr = std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+[5.466s]   240 |   Subscriber [01;36m[Ksubscribe[m[K(
+[5.466s]       |              [01;36m[K^~~~~~~~~[m[K
+[5.466s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:240:14:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 5 provided
+[5.466s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:283:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, rmw_qos_profile_t, void (T::*)(const ImageConstPtr&), T*, const image_transport::TransportHints*, rclcpp::SubscriptionOptions) [with T = PosePublisher; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; image_transport::ImageTransport::ImageConstPtr = std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+[5.466s]   283 |   Subscriber [01;36m[Ksubscribe[m[K(
+[5.466s]       |              [01;36m[K^~~~~~~~~[m[K
+[5.466s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:284:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Krmw_qos_profile_t[m[K’ {aka ‘[01m[Krmw_qos_profile_s[m[K’}
+[5.466s]   284 |     const std::string & base_topic, [01;36m[Krmw_qos_profile_t custom_qos[m[K,
+[5.466s]       |                                     [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[5.466s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:298:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, rmw_qos_profile_t, void (T::*)(const ImageConstPtr&), const std::shared_ptr<_Tp>&, const image_transport::TransportHints*, rclcpp::SubscriptionOptions) [with T = PosePublisher; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_s; image_transport::ImageTransport::ImageConstPtr = std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >; rclcpp::SubscriptionOptions = rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >][m[K’
+[5.466s]   298 |   Subscriber [01;36m[Ksubscribe[m[K(
+[5.466s]       |              [01;36m[K^~~~~~~~~[m[K
+[5.466s] [01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:299:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Krmw_qos_profile_t[m[K’ {aka ‘[01m[Krmw_qos_profile_s[m[K’}
+[5.466s]   299 |     const std::string & base_topic, [01;36m[Krmw_qos_profile_t custom_qos[m[K,
+[5.466s]       |                                     [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[8.722s] gmake[2]: *** [CMakeFiles/getpose.dir/build.make:76: CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o] Error 1
+[8.722s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/getpose.dir/all] Error 2
+[8.722s] gmake: *** [Makefile:146: all] Error 2
+[8.723s] Invoked command in '/home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub -- -j16 -l16

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target getpose[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o[0m
+[100%] [32m[1mLinking CXX executable getpose[0m
+[100%] Built target getpose
+-- Install configuration: ""
+-- Installing: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/lib/orbslam_pub/getpose
+-- Set runtime path of "/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/lib/orbslam_pub/getpose" to ""
+-- Up-to-date: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/ament_index/resource_index/package_run_dependencies/orbslam_pub
+-- Up-to-date: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/ament_index/resource_index/parent_prefix_path/orbslam_pub
+-- Up-to-date: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/environment/ament_prefix_path.sh
+-- Installing: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/environment/path.sh
+-- Installing: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/environment/path.dsv
+-- Up-to-date: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/local_setup.bash
+-- Up-to-date: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/local_setup.sh
+-- Up-to-date: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/local_setup.zsh
+-- Installing: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/local_setup.dsv
+-- Installing: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/package.dsv
+-- Up-to-date: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/ament_index/resource_index/packages/orbslam_pub
+-- Up-to-date: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/cmake/orbslam_pubConfig.cmake
+-- Up-to-date: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/cmake/orbslam_pubConfig-version.cmake
+-- Up-to-date: /home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/package.xml

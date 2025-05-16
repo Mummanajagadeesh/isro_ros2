@@ -1,0 +1,16 @@
+[0.269s] Invoking command in '/home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub -- -j16 -l16
+[0.311s] [ 50%] [32mBuilding CXX object CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o[0m
+[0.603s] In file included from [01m[K/home/niraamay/isro/ORB_SLAM3/include/MapPoint.h:23[m[K,
+[0.603s]                  from [01m[K/home/niraamay/isro/ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+[0.603s]                  from [01m[K/home/niraamay/isro/ORB_SLAM3/include/Viewer.h:23[m[K,
+[0.604s]                  from [01m[K/home/niraamay/isro/ORB_SLAM3/include/Tracking.h:26[m[K,
+[0.604s]                  from [01m[K/home/niraamay/isro/ORB_SLAM3/include/System.h:31[m[K,
+[0.604s]                  from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:12[m[K:
+[0.604s] [01m[K/home/niraamay/isro/ORB_SLAM3/include/KeyFrame.h:24:10:[m[K [01;31m[Kfatal error: [m[KThirdparty/DBoW2/DBoW2/BowVector.h: No such file or directory
+[0.604s]    24 | #include [01;31m[K"Thirdparty/DBoW2/DBoW2/BowVector.h"[m[K
+[0.604s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.604s] compilation terminated.
+[0.614s] gmake[2]: *** [CMakeFiles/getpose.dir/build.make:76: CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o] Error 1
+[0.615s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/getpose.dir/all] Error 2
+[0.615s] gmake: *** [Makefile:146: all] Error 2
+[0.617s] Invoked command in '/home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub -- -j16 -l16

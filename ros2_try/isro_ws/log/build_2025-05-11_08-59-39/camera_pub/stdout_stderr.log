@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/camera_pub/camera_pub.egg-info
+writing ../../build/camera_pub/camera_pub.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_pub/camera_pub.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_pub/camera_pub.egg-info/entry_points.txt
+writing requirements to ../../build/camera_pub/camera_pub.egg-info/requires.txt
+writing top-level names to ../../build/camera_pub/camera_pub.egg-info/top_level.txt
+writing manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/build
+creating /home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/build/lib
+creating /home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/build/lib/camera_pub
+copying camera_pub/__init__.py -> /home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/build/lib/camera_pub
+copying camera_pub/camera_pub.py -> /home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/build/lib/camera_pub
+running install
+running install_lib
+creating /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub
+copying /home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/build/lib/camera_pub/__init__.py -> /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub
+copying /home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/build/lib/camera_pub/camera_pub.py -> /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub
+byte-compiling /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub/camera_pub.py to camera_pub.cpython-310.pyc
+running install_data
+creating /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/ament_index
+creating /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/ament_index/resource_index
+creating /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/ament_index/resource_index/packages
+copying resource/camera_pub -> /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/ament_index/resource_index/packages
+copying package.xml -> /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/camera_pub
+running install_egg_info
+Copying ../../build/camera_pub/camera_pub.egg-info to /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera script to /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/camera_pub
+writing list of installed files to '/home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/install.log'

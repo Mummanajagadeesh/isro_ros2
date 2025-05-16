@@ -1,0 +1,21 @@
+[0.614s] Invoking command in '/home/niraamay/isro/ros2_try/isro_ws/src/camera_pub': PYTHONPATH=/home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pub build --build-base /home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/build install --record /home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/install.log --single-version-externally-managed install_data
+[0.853s] running egg_info
+[0.854s] writing ../../build/camera_pub/camera_pub.egg-info/PKG-INFO
+[0.854s] writing dependency_links to ../../build/camera_pub/camera_pub.egg-info/dependency_links.txt
+[0.854s] writing entry points to ../../build/camera_pub/camera_pub.egg-info/entry_points.txt
+[0.854s] writing requirements to ../../build/camera_pub/camera_pub.egg-info/requires.txt
+[0.854s] writing top-level names to ../../build/camera_pub/camera_pub.egg-info/top_level.txt
+[0.856s] reading manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'
+[0.856s] adding license file 'LICENSE'
+[0.857s] writing manifest file '../../build/camera_pub/camera_pub.egg-info/SOURCES.txt'
+[0.857s] running build
+[0.857s] running build_py
+[0.857s] running install
+[0.857s] running install_lib
+[0.859s] running install_data
+[0.859s] running install_egg_info
+[0.860s] removing '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.861s] Copying ../../build/camera_pub/camera_pub.egg-info to /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages/camera_pub-0.0.0-py3.10.egg-info
+[0.861s] running install_scripts
+[0.883s] Installing camera script to /home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/camera_pub
+[0.883s] writing list of installed files to '/home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/install.log'

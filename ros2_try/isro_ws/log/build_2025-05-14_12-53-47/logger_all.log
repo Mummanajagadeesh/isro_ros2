@@ -1,0 +1,255 @@
+[0.120s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.120s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8e7bdf0b80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8e7bdf0730>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8e7bdf0730>>)
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.294s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/niraamay/isro/ros2_try/isro_ws'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_feed_pub' with type 'ros.ament_cmake' and name 'camera_feed_pub'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_pub) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_pub' with type 'ros.ament_python' and name 'camera_pub'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/orbslam_pub' with type 'ros.ament_cmake' and name 'orbslam_pub'
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.346s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.347s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/niraamay/isro/ros2_try/isro_ws/install
+[0.348s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/humble
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'camera_feed_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niraamay/isro/ros2_try/isro_ws/build/camera_feed_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub', 'merge_install': False, 'path': '/home/niraamay/isro/ros2_try/isro_ws/src/camera_feed_pub', 'symlink_install': False, 'test_result_base': None}
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'camera_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niraamay/isro/ros2_try/isro_ws/build/camera_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub', 'merge_install': False, 'path': '/home/niraamay/isro/ros2_try/isro_ws/src/camera_pub', 'symlink_install': False, 'test_result_base': None}
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'orbslam_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub', 'merge_install': False, 'path': '/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub', 'symlink_install': False, 'test_result_base': None}
+[0.387s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.389s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.389s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/niraamay/isro/ros2_try/isro_ws/src/camera_feed_pub' with build type 'ament_cmake'
+[0.389s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/niraamay/isro/ros2_try/isro_ws/src/camera_feed_pub'
+[0.391s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.391s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.391s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.395s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/niraamay/isro/ros2_try/isro_ws/src/camera_pub' with build type 'ament_python'
+[0.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_pub', 'ament_prefix_path')
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/camera_pub/hook/ament_prefix_path.ps1'
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/camera_pub/hook/ament_prefix_path.dsv'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/camera_pub/hook/ament_prefix_path.sh'
+[0.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.400s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub' with build type 'ament_cmake'
+[0.401s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub'
+[0.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro/ros2_try/isro_ws/build/camera_feed_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub:/opt/ros/humble /usr/bin/cmake --build /home/niraamay/isro/ros2_try/isro_ws/build/camera_feed_pub -- -j16 -l16
+[0.702s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/niraamay/isro/ros2_try/isro_ws/src/camera_pub'
+[0.702s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.702s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub:/opt/ros/humble /usr/bin/cmake --build /home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub -- -j16 -l16
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro/ros2_try/isro_ws/build/camera_feed_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub:/opt/ros/humble /usr/bin/cmake --build /home/niraamay/isro/ros2_try/isro_ws/build/camera_feed_pub -- -j16 -l16
+[0.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro/ros2_try/isro_ws/build/camera_feed_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub:/opt/ros/humble /usr/bin/cmake --install /home/niraamay/isro/ros2_try/isro_ws/build/camera_feed_pub
+[0.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_feed_pub)
+[0.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro/ros2_try/isro_ws/build/camera_feed_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub:/opt/ros/humble /usr/bin/cmake --install /home/niraamay/isro/ros2_try/isro_ws/build/camera_feed_pub
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub' for CMake module files
+[0.731s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub' for CMake config files
+[0.732s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_feed_pub', 'cmake_prefix_path')
+[0.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/hook/cmake_prefix_path.ps1'
+[0.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/hook/cmake_prefix_path.dsv'
+[0.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/hook/cmake_prefix_path.sh'
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/lib'
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/bin'
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/lib/pkgconfig/camera_feed_pub.pc'
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/lib/python3.10/site-packages'
+[0.734s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/bin'
+[0.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/package.ps1'
+[0.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/package.dsv'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/package.sh'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/package.bash'
+[0.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/package.zsh'
+[0.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/colcon-core/packages/camera_feed_pub)
+[0.739s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_feed_pub)
+[0.739s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub' for CMake module files
+[0.740s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub' for CMake config files
+[0.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_feed_pub', 'cmake_prefix_path')
+[0.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/hook/cmake_prefix_path.ps1'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/hook/cmake_prefix_path.dsv'
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/hook/cmake_prefix_path.sh'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/lib'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/bin'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/lib/pkgconfig/camera_feed_pub.pc'
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/lib/python3.10/site-packages'
+[0.743s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/bin'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/package.ps1'
+[0.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/package.dsv'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/package.sh'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/package.bash'
+[0.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/camera_feed_pub/package.zsh'
+[0.745s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro/ros2_try/isro_ws/install/camera_feed_pub/share/colcon-core/packages/camera_feed_pub)
+[0.993s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro/ros2_try/isro_ws/src/camera_pub': PYTHONPATH=/home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pub build --build-base /home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/build install --record /home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/install.log --single-version-externally-managed install_data
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub' for CMake module files
+[1.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro/ros2_try/isro_ws/src/camera_pub' returned '0': PYTHONPATH=/home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_pub build --build-base /home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/build install --record /home/niraamay/isro/ros2_try/isro_ws/build/camera_pub/install.log --single-version-externally-managed install_data
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub' for CMake config files
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/bin'
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/pkgconfig/camera_pub.pc'
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/lib/python3.10/site-packages'
+[1.214s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_pub', 'pythonpath')
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/camera_pub/hook/pythonpath.ps1'
+[1.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/camera_pub/hook/pythonpath.dsv'
+[1.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/camera_pub/hook/pythonpath.sh'
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/bin'
+[1.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_pub)
+[1.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/camera_pub/package.ps1'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/camera_pub/package.dsv'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/camera_pub/package.sh'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/camera_pub/package.bash'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/camera_pub/package.zsh'
+[1.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub/share/colcon-core/packages/camera_pub)
+[12.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub:/opt/ros/humble /usr/bin/cmake --build /home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub -- -j16 -l16
+[12.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub:/opt/ros/humble /usr/bin/cmake --install /home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub
+[12.999s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbslam_pub)
+[12.999s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub' for CMake module files
+[13.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro/ros2_try/isro_ws/install/camera_pub:/opt/ros/humble /usr/bin/cmake --install /home/niraamay/isro/ros2_try/isro_ws/build/orbslam_pub
+[13.000s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub' for CMake config files
+[13.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam_pub', 'cmake_prefix_path')
+[13.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/hook/cmake_prefix_path.ps1'
+[13.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/hook/cmake_prefix_path.dsv'
+[13.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/hook/cmake_prefix_path.sh'
+[13.002s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/lib'
+[13.002s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/bin'
+[13.002s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/lib/pkgconfig/orbslam_pub.pc'
+[13.002s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/lib/python3.10/site-packages'
+[13.002s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/bin'
+[13.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/package.ps1'
+[13.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/package.dsv'
+[13.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/package.sh'
+[13.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/package.bash'
+[13.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/package.zsh'
+[13.005s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/colcon-core/packages/orbslam_pub)
+[13.005s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbslam_pub)
+[13.006s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub' for CMake module files
+[13.006s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub' for CMake config files
+[13.006s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam_pub', 'cmake_prefix_path')
+[13.006s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/hook/cmake_prefix_path.ps1'
+[13.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/hook/cmake_prefix_path.dsv'
+[13.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/hook/cmake_prefix_path.sh'
+[13.008s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/lib'
+[13.008s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/bin'
+[13.008s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/lib/pkgconfig/orbslam_pub.pc'
+[13.009s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/lib/python3.10/site-packages'
+[13.009s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/bin'
+[13.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/package.ps1'
+[13.010s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/package.dsv'
+[13.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/package.sh'
+[13.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/package.bash'
+[13.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/orbslam_pub/package.zsh'
+[13.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro/ros2_try/isro_ws/install/orbslam_pub/share/colcon-core/packages/orbslam_pub)
+[13.013s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.014s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.014s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.030s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.030s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.031s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.064s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niraamay/isro/ros2_try/isro_ws/install/local_setup.ps1'
+[13.074s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/niraamay/isro/ros2_try/isro_ws/install/_local_setup_util_ps1.py'
+[13.082s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niraamay/isro/ros2_try/isro_ws/install/setup.ps1'
+[13.089s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niraamay/isro/ros2_try/isro_ws/install/local_setup.sh'
+[13.093s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/niraamay/isro/ros2_try/isro_ws/install/_local_setup_util_sh.py'
+[13.099s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niraamay/isro/ros2_try/isro_ws/install/setup.sh'
+[13.106s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niraamay/isro/ros2_try/isro_ws/install/local_setup.bash'
+[13.111s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niraamay/isro/ros2_try/isro_ws/install/setup.bash'
+[13.118s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niraamay/isro/ros2_try/isro_ws/install/local_setup.zsh'
+[13.122s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niraamay/isro/ros2_try/isro_ws/install/setup.zsh'

@@ -1,0 +1,10 @@
+[01m[K/home/niraamay/isro/ros2_try/isro_ws/src/camera_feed_pub/src/camera_feed_pub.cpp:[m[K In constructor ‘[01m[KCameraFeedPublisher::CameraFeedPublisher()[m[K’:
+[01m[K/home/niraamay/isro/ros2_try/isro_ws/src/camera_feed_pub/src/camera_feed_pub.cpp:15:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kimage_pub_[m[K’
+   15 |             [01;31m[Kimage_pub_[m[K = image_transport_->advertise("camera_feed/image_raw", 1);
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/niraamay/isro/ros2_try/isro_ws/src/camera_feed_pub/src/camera_feed_pub.cpp:23:46:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   23 |             timer_ = this->create_wall_timer([01;31m[K33ms[m[K, std::bind(&CameraFeedPublisher::publish_frame, this));
+      |                                              [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/camera_feed_pub.dir/build.make:76: CMakeFiles/camera_feed_pub.dir/src/camera_feed_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/camera_feed_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

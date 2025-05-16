@@ -1,0 +1,200 @@
+In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Converter.h:26[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:33[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:[m[K [01;35m[Kwarning: [m[K‘[01m[KEigen::AlignedBit[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & [01;35m[KAlignedBit[m[K ? Aligned : Unaligned >  HessianBlockType;
+      |                                                                          [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:161[m[K,
+                 from [01m[K/usr/include/eigen3/Eigen/LU:11[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Frame.h:28[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/KeyFrame.h:28[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/MapPoint.h:23[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/FrameDrawer.h:24[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Viewer.h:23[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/Tracking.h:26[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/include/System.h:31[m[K,
+                 from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:14[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:[m[K [01;36m[Knote: [m[Kdeclared here
+  167 | EIGEN_DEPRECATED const unsigned int [01;36m[KAlignedBit[m[K = 0x80;
+      |                                     [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/../../../../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38[m[K,
+[01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:[m[K In member function ‘[01m[Kvoid PosePublisher::init()[m[K’:
+[01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:33:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kimage_transport::ImageTransport::subscribe(const char [22], int, std::_Bind_helper<false, void (PosePublisher::*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&), PosePublisher*, const std::_Placeholder<1>&>::type, <brace-enclosed initializer list>, image_transport::TransportHints&)[m[K’
+   33 |       subscription_ = [01;31m[Kimage_transport_->subscribe([m[K
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   34 | [01;31m[K        "camera_feed/image_raw",  // Match the publisher's topic exactly[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   35 | [01;31m[K        1,  // Queue size[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~[m[K                         
+   36 | [01;31m[K        std::bind(&PosePublisher::image_callback, this, std::placeholders::_1),[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   37 | [01;31m[K        {},  // Empty options[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K                     
+   38 | [01;31m[K        hints  // Use compressed transport[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   39 | [01;31m[K      )[m[K;
+      |       [01;31m[K~[m[K                                           
+In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:196:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), T*, const image_transport::TransportHints*)[m[K’
+  196 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:196:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:33:50:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const ImageConstPtr&)[m[K’ and ‘[01m[Kstd::_Bind<void (PosePublisher::*(PosePublisher*, std::_Placeholder<1>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>[m[K’
+   33 |       subscription_ = [01;36m[Kimage_transport_->subscribe([m[K
+      |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   34 | [01;36m[K        "camera_feed/image_raw",  // Match the publisher's topic exactly[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   35 | [01;36m[K        1,  // Queue size[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~[m[K                         
+   36 | [01;36m[K        std::bind(&PosePublisher::image_callback, this, std::placeholders::_1),[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   37 | [01;36m[K        {},  // Empty options[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K                     
+   38 | [01;36m[K        hints  // Use compressed transport[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   39 | [01;36m[K      )[m[K;
+      |       [01;36m[K~[m[K                                           
+In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:210:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), T*, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+  210 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:210:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:33:50:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const ImageConstPtr&)[m[K’ and ‘[01m[Kstd::_Bind<void (PosePublisher::*(PosePublisher*, std::_Placeholder<1>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>[m[K’
+   33 |       subscription_ = [01;36m[Kimage_transport_->subscribe([m[K
+      |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   34 | [01;36m[K        "camera_feed/image_raw",  // Match the publisher's topic exactly[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   35 | [01;36m[K        1,  // Queue size[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~[m[K                         
+   36 | [01;36m[K        std::bind(&PosePublisher::image_callback, this, std::placeholders::_1),[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   37 | [01;36m[K        {},  // Empty options[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K                     
+   38 | [01;36m[K        hints  // Use compressed transport[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   39 | [01;36m[K      )[m[K;
+      |       [01;36m[K~[m[K                                           
+In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:225:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), const std::shared_ptr<_Tp>&, const image_transport::TransportHints*)[m[K’
+  225 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:225:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:33:50:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const ImageConstPtr&)[m[K’ and ‘[01m[Kstd::_Bind<void (PosePublisher::*(PosePublisher*, std::_Placeholder<1>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>[m[K’
+   33 |       subscription_ = [01;36m[Kimage_transport_->subscribe([m[K
+      |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   34 | [01;36m[K        "camera_feed/image_raw",  // Match the publisher's topic exactly[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   35 | [01;36m[K        1,  // Queue size[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~[m[K                         
+   36 | [01;36m[K        std::bind(&PosePublisher::image_callback, this, std::placeholders::_1),[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   37 | [01;36m[K        {},  // Empty options[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K                     
+   38 | [01;36m[K        hints  // Use compressed transport[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   39 | [01;36m[K      )[m[K;
+      |       [01;36m[K~[m[K                                           
+In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:240:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (T::*)(const ImageConstPtr&), const std::shared_ptr<_Tp>&, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+  240 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:240:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:33:50:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const ImageConstPtr&)[m[K’ and ‘[01m[Kstd::_Bind<void (PosePublisher::*(PosePublisher*, std::_Placeholder<1>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>[m[K’
+   33 |       subscription_ = [01;36m[Kimage_transport_->subscribe([m[K
+      |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   34 | [01;36m[K        "camera_feed/image_raw",  // Match the publisher's topic exactly[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   35 | [01;36m[K        1,  // Queue size[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~[m[K                         
+   36 | [01;36m[K        std::bind(&PosePublisher::image_callback, this, std::placeholders::_1),[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   37 | [01;36m[K        {},  // Empty options[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K                     
+   38 | [01;36m[K        hints  // Use compressed transport[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   39 | [01;36m[K      )[m[K;
+      |       [01;36m[K~[m[K                                           
+In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:283:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, rmw_qos_profile_t, void (T::*)(const ImageConstPtr&), T*, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+  283 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:283:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:33:50:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const ImageConstPtr&)[m[K’ and ‘[01m[Kstd::_Bind<void (PosePublisher::*(PosePublisher*, std::_Placeholder<1>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>[m[K’
+   33 |       subscription_ = [01;36m[Kimage_transport_->subscribe([m[K
+      |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   34 | [01;36m[K        "camera_feed/image_raw",  // Match the publisher's topic exactly[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   35 | [01;36m[K        1,  // Queue size[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~[m[K                         
+   36 | [01;36m[K        std::bind(&PosePublisher::image_callback, this, std::placeholders::_1),[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   37 | [01;36m[K        {},  // Empty options[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K                     
+   38 | [01;36m[K        hints  // Use compressed transport[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   39 | [01;36m[K      )[m[K;
+      |       [01;36m[K~[m[K                                           
+In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:298:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> image_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, rmw_qos_profile_t, void (T::*)(const ImageConstPtr&), const std::shared_ptr<_Tp>&, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+  298 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:298:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:33:50:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::*)(const ImageConstPtr&)[m[K’ and ‘[01m[Kstd::_Bind<void (PosePublisher::*(PosePublisher*, std::_Placeholder<1>))(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)>[m[K’
+   33 |       subscription_ = [01;36m[Kimage_transport_->subscribe([m[K
+      |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   34 | [01;36m[K        "camera_feed/image_raw",  // Match the publisher's topic exactly[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   35 | [01;36m[K        1,  // Queue size[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~[m[K                         
+   36 | [01;36m[K        std::bind(&PosePublisher::image_callback, this, std::placeholders::_1),[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   37 | [01;36m[K        {},  // Empty options[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~[m[K                     
+   38 | [01;36m[K        hints  // Use compressed transport[m[K
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   39 | [01;36m[K      )[m[K;
+      |       [01;36m[K~[m[K                                           
+In file included from [01m[K/home/niraamay/isro/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp:12[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:144:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, const Callback&, const VoidPtr&, const image_transport::TransportHints*)[m[K’
+  144 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:148:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 5 from ‘[01m[Kimage_transport::TransportHints[m[K’ to ‘[01m[Kconst image_transport::TransportHints*[m[K’
+  148 |     [01;36m[Kconst TransportHints * transport_hints = nullptr[m[K);
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:154:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, const Callback&, const VoidPtr&, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+  154 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:154:14:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 5 provided
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:165:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (*)(const ImageConstPtr&), const image_transport::TransportHints*)[m[K’
+  165 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:165:14:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 5 provided
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:180:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, uint32_t, void (*)(const ImageConstPtr&), const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+  180 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:182:13:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Kstd::_Bind_helper<false, void (PosePublisher::*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&), PosePublisher*, const std::_Placeholder<1>&>::type[m[K’ to ‘[01m[Kvoid (*)(const ImageConstPtr&)[m[K’ {aka ‘[01m[Kvoid (*)(const std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >&)[m[K’}
+  182 |     [01;36m[Kvoid (* fp)(const ImageConstPtr &)[m[K,
+      |     [01;36m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:256:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, rmw_qos_profile_t, const Callback&, const VoidPtr&, const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+  256 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:256:14:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 5 provided
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:267:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kimage_transport::Subscriber image_transport::ImageTransport::subscribe(const string&, rmw_qos_profile_t, void (*)(const ImageConstPtr&), const image_transport::TransportHints*, rclcpp::SubscriptionOptions)[m[K’
+  267 |   Subscriber [01;36m[Ksubscribe[m[K(
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.hpp:268:55:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kint[m[K’ to ‘[01m[Krmw_qos_profile_t[m[K’ {aka ‘[01m[Krmw_qos_profile_s[m[K’}
+  268 |     const std::string & base_topic, [01;36m[Krmw_qos_profile_t custom_qos[m[K,
+      |                                     [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/getpose.dir/build.make:76: CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/getpose.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
