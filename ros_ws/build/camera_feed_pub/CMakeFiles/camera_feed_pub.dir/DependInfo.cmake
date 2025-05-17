@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/camera_feed_pub/src/camera_feed_pub.cpp" "CMakeFiles/camera_feed_pub.dir/src/camera_feed_pub.cpp.o" "gcc" "CMakeFiles/camera_feed_pub.dir/src/camera_feed_pub.cpp.o.d"
+  "/home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub/src/camera_feed_pub.cpp" "CMakeFiles/camera_feed_pub.dir/src/camera_feed_pub.cpp.o" "gcc" "CMakeFiles/camera_feed_pub.dir/src/camera_feed_pub.cpp.o.d"
   )
 
 # Targets to which this target links.

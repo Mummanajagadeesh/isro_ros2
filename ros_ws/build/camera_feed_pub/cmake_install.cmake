@@ -1,8 +1,8 @@
-# Install script for directory: /home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/camera_feed_pub
+# Install script for directory: /home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/install/camera_feed_pub")
+  set(CMAKE_INSTALL_PREFIX "/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/camera_feed_pub/camera_feed_pub"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/camera_feed_pub" TYPE EXECUTABLE FILES "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/camera_feed_pub")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/camera_feed_pub" TYPE EXECUTABLE FILES "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/camera_feed_pub")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/camera_feed_pub/camera_feed_pub" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/camera_feed_pub/camera_feed_pub")
     file(RPATH_CHANGE
@@ -63,11 +63,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/camera_feed_pub")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/camera_feed_pub")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/camera_feed_pub")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/camera_feed_pub")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,7 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub/environment" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub/environment" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -83,42 +83,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub/environment" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub/environment" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/ament_cmake_index/share/ament_index/resource_index/packages/camera_feed_pub")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/ament_cmake_index/share/ament_index/resource_index/packages/camera_feed_pub")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub/cmake" TYPE FILE FILES
-    "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/ament_cmake_core/camera_feed_pubConfig.cmake"
-    "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/ament_cmake_core/camera_feed_pubConfig-version.cmake"
+    "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/ament_cmake_core/camera_feed_pubConfig.cmake"
+    "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/ament_cmake_core/camera_feed_pubConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/camera_feed_pub/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/camera_feed_pub" TYPE FILE FILES "/home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -129,5 +129,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

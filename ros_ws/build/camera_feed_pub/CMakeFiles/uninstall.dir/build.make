@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/camera_feed_pub
+CMAKE_SOURCE_DIR = /home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub
+CMAKE_BINARY_DIR = /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/camera_feed_pub /home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/camera_feed_pub /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub /home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

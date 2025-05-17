@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/camera_feed_pub
+CMAKE_SOURCE_DIR = /home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub
+CMAKE_BINARY_DIR = /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/CMakeFiles /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/CMakeFiles /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

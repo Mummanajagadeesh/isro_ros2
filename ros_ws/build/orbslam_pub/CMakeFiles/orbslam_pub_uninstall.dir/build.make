@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/orbslam_pub
+CMAKE_SOURCE_DIR = /home/niraamay/isro_ros2_try/ros_ws/src/orbslam_pub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub
+CMAKE_BINARY_DIR = /home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub
 
 # Utility rule file for orbslam_pub_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/orbslam_pub_uninstall.dir/compiler_depend.make
 include CMakeFiles/orbslam_pub_uninstall.dir/progress.make
 
 CMakeFiles/orbslam_pub_uninstall:
-	/usr/bin/cmake -P /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 orbslam_pub_uninstall: CMakeFiles/orbslam_pub_uninstall
 orbslam_pub_uninstall: CMakeFiles/orbslam_pub_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/orbslam_pub_uninstall.dir/clean:
 .PHONY : CMakeFiles/orbslam_pub_uninstall.dir/clean
 
 CMakeFiles/orbslam_pub_uninstall.dir/depend:
-	cd /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/orbslam_pub /home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/orbslam_pub /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub/CMakeFiles/orbslam_pub_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/niraamay/isro_ros2_try/ros_ws/src/orbslam_pub /home/niraamay/isro_ros2_try/ros_ws/src/orbslam_pub /home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub /home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub /home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub/CMakeFiles/orbslam_pub_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/orbslam_pub_uninstall.dir/depend
 

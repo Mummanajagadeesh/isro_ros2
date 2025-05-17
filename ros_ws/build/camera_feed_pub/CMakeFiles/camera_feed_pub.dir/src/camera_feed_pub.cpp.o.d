@@ -1,5 +1,5 @@
 CMakeFiles/camera_feed_pub.dir/src/camera_feed_pub.cpp.o: \
- /home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/camera_feed_pub/src/camera_feed_pub.cpp \
+ /home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub/src/camera_feed_pub.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

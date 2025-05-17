@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
 project(orbslam_pub)
 
-set(ORB_SLAM3_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../../../../ORB_SLAM3")
+set(ORB_SLAM3_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../../../ORB_SLAM3")
 
 set(CMAKE_INSTALL_RPATH "${ORB_SLAM3_DIR}/lib")
 set(CMAKE_BUILD_WITH_INSTALL_RPATH TRUE)

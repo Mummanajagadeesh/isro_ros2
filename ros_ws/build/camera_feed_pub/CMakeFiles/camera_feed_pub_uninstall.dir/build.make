@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/camera_feed_pub
+CMAKE_SOURCE_DIR = /home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub
+CMAKE_BINARY_DIR = /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub
 
 # Utility rule file for camera_feed_pub_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/camera_feed_pub_uninstall.dir/compiler_depend.make
 include CMakeFiles/camera_feed_pub_uninstall.dir/progress.make
 
 CMakeFiles/camera_feed_pub_uninstall:
-	/usr/bin/cmake -P /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 camera_feed_pub_uninstall: CMakeFiles/camera_feed_pub_uninstall
 camera_feed_pub_uninstall: CMakeFiles/camera_feed_pub_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/camera_feed_pub_uninstall.dir/clean:
 .PHONY : CMakeFiles/camera_feed_pub_uninstall.dir/clean
 
 CMakeFiles/camera_feed_pub_uninstall.dir/depend:
-	cd /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/camera_feed_pub /home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/camera_feed_pub /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub /home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/camera_feed_pub/CMakeFiles/camera_feed_pub_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub /home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub/CMakeFiles/camera_feed_pub_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/camera_feed_pub_uninstall.dir/depend
 

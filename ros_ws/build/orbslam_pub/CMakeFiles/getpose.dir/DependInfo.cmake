@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/niraamay/isro_ros2_try/ros2_try/isro_ws/src/orbslam_pub/src/orbslam_getpose.cpp" "CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o" "gcc" "CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o.d"
+  "/home/niraamay/isro_ros2_try/ros_ws/src/orbslam_pub/src/orbslam_getpose.cpp" "CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o" "gcc" "CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o.d"
   )
 
 # Targets to which this target links.
