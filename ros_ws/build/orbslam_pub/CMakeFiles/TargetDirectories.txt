@@ -1,0 +1,10 @@
+/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub/CMakeFiles/uninstall.dir
+/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub/CMakeFiles/orbslam_pub_uninstall.dir
+/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub/CMakeFiles/getpose.dir
+/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub/CMakeFiles/test.dir
+/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub/CMakeFiles/edit_cache.dir
+/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub/CMakeFiles/rebuild_cache.dir
+/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub/CMakeFiles/list_install_components.dir
+/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub/CMakeFiles/install.dir
+/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub/CMakeFiles/install/local.dir
+/home/niraamay/isro_ros2_try/ros2_try/isro_ws/build/orbslam_pub/CMakeFiles/install/strip.dir

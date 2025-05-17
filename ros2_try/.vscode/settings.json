@@ -1,8 +1,0 @@
-{
-    "idf.pythonInstallPath": "/usr/bin/python3",
-    "ros.distro": "humble",
-    "files.associations": {
-        "chrono": "cpp"
-    },
-    "cmake.ignoreCMakeListsMissing": true
-}
