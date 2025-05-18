@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mavros_msgs/msg/OpenDroneIDOperatorID.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module mavros_msgs {
+  module msg {
+    module OpenDroneIDOperatorID_Constants {
+      @verbatim (language="comment", text=
+        "[[[cog:" "\n"        "import mavros_cog" "\n"        "mavros_cog.idl_decl_enum('MAV_ODID_OPERATOR_ID_TYPE', 'ID_TYPE_')" "\n"        "]]]" "\n"        "MAV_ODID_OPERATOR_ID_TYPE" "\n"        "CAA (Civil Aviation Authority) registered operator ID.")
+      const uint8 ID_TYPE_CAA = 0;
+    };
+    @verbatim (language="comment", text=
+      "Remote ID message - Operator ID" "\n"
+      "https://mavlink.io/en/messages/common.html#OPEN_DRONE_ID_OPERATOR_ID")
+    struct OpenDroneIDOperatorID {
+      @verbatim (language="comment", text=
+        "]] (checksum: be1240b63d8b101630595dd9ae4a42d4)")
+      @unit (value="[[end")
+      std_msgs::msg::Header header;
+
+      string id_or_mac;
+
+      uint8 operator_id_type;
+
+      string operator_id;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+[console_scripts]
+mav = mavros.cmd:cli
+

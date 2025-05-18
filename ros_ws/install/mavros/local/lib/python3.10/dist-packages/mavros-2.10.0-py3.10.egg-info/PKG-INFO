@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: mavros
+Version: 2.10.0
+Summary: 'Helper scripts and module for MAVROS'
+Home-page: UNKNOWN
+Author: 'Vladimir Ermakov'
+Author-email: 'vooon341@gmail.com'
+Maintainer: 'Vladimir Ermakov'
+Maintainer-email: 'vooon341@gmail.com'
+License: 'Triple licensed under GPLv3, LGPLv3 and BSD'
+Keywords: 'ROS'
+Platform: UNKNOWN
+Classifier: 'Intended Audience :: Developers'
+Classifier: 'License :: OSI Approved :: GNU General Public License v3 (GPLv3)'
+Classifier: 'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)'
+Classifier: 'License :: OSI Approved :: BSD License'
+Classifier: 'Programming Language :: Python'
+Classifier: 'Topic :: Software Development'
+
+UNKNOWN
+

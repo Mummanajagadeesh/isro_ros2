@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000289] (-) JobUnselected: {'identifier': 'camera_feed_pub'}
+[0.000319] (-) JobUnselected: {'identifier': 'drone_control_pkg'}
+[0.000337] (-) JobUnselected: {'identifier': 'py_img_sub'}
+[0.000354] (orbslam_pub) JobQueued: {'identifier': 'orbslam_pub', 'dependencies': OrderedDict()}
+[0.000663] (orbslam_pub) JobStarted: {'identifier': 'orbslam_pub'}
+[0.008892] (orbslam_pub) JobProgress: {'identifier': 'orbslam_pub', 'progress': 'cmake'}
+[0.009230] (orbslam_pub) JobProgress: {'identifier': 'orbslam_pub', 'progress': 'build'}
+[0.009943] (orbslam_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub', '--', '-j16', '-l16'], 'cwd': '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'niraamay'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/niraamay'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/niraamay/isro_ros2_try/ros_ws/src'), ('DESKTOP_SESSION', 'cinnamon'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '\\[\\033[1;32m\\]\\u@\\h\\[\\033[0m\\]:\\[\\033[1;34m\\]\\w\\[\\033[1;33m\\]$(parse_git_branch)\\[\\033[0m\\]$'), ('MANAGERPID', '2310'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2325'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=398e77283f3fa2dce99a157868291052'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install:/home/niraamay/isro_ros2_try/ros_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niraamay'), ('JOURNAL_STREAM', '8:40639'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/niraamay/.local/bin:/opt/ros/humble/bin:/home/niraamay/miniconda3/condabin:/home/niraamay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nhp:@/tmp/.ICE-unix/2326,unix/nhp:/tmp/.ICE-unix/2326'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '750f55c2715045e29b2b836fd0dfe1d5'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'X-Cinnamon'), ('TILIX_ID', 'e1e076da-bb93-43a4-8643-b776edc8f020'), ('XDG_SESSION_DESKTOP', 'cinnamon'), ('XAUTHORITY', '/home/niraamay/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/niraamay'), ('AMENT_PREFIX_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install/py_img_sub:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras:/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/src/install/py_img_sub:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/niraamay/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'cinnamon'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-cinnamon:/etc/xdg'), ('CONDA_EXE', '/home/niraamay/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=398e77283f3fa2dce99a157868291052'), ('XDG_DATA_DIRS', '/usr/share/cinnamon:/usr/share/gnome:/home/niraamay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/niraamay/isro_ros2_try/ros_ws/install/py_img_sub/lib/python3.10/site-packages:/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg/lib/python3.10/site-packages:/home/niraamay/isro_ros2_try/ros_ws/src/install/py_img_sub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras:/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/py_img_sub:/home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg:/home/niraamay/isro_ros2_try/ros_ws/src/install/py_img_sub:/opt/ros/humble')]), 'shell': False}
+[0.058004] (orbslam_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target getpose\x1b[0m\n'}
+[0.086434] (orbslam_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o\x1b[0m\n'}
+[0.099849] (-) TimerEvent: {}
+[0.200171] (-) TimerEvent: {}
+[0.300477] (-) TimerEvent: {}
+[0.400802] (-) TimerEvent: {}
+[0.501131] (-) TimerEvent: {}
+[0.601436] (-) TimerEvent: {}
+[0.701746] (-) TimerEvent: {}
+[0.802145] (-) TimerEvent: {}
+[0.902499] (-) TimerEvent: {}
+[1.002838] (-) TimerEvent: {}
+[1.103147] (-) TimerEvent: {}
+[1.203450] (-) TimerEvent: {}
+[1.303795] (-) TimerEvent: {}
+[1.404275] (-) TimerEvent: {}
+[1.504761] (-) TimerEvent: {}
+[1.605073] (-) TimerEvent: {}
+[1.705491] (-) TimerEvent: {}
+[1.805848] (-) TimerEvent: {}
+[1.906190] (-) TimerEvent: {}
+[2.006557] (-) TimerEvent: {}
+[2.106901] (-) TimerEvent: {}
+[2.207250] (-) TimerEvent: {}
+[2.307535] (-) TimerEvent: {}
+[2.407871] (-) TimerEvent: {}
+[2.508154] (-) TimerEvent: {}
+[2.608426] (-) TimerEvent: {}
+[2.708706] (-) TimerEvent: {}
+[2.808962] (-) TimerEvent: {}
+[2.909263] (-) TimerEvent: {}
+[3.009521] (-) TimerEvent: {}
+[3.109747] (-) TimerEvent: {}
+[3.209970] (-) TimerEvent: {}
+[3.310242] (-) TimerEvent: {}
+[3.410586] (-) TimerEvent: {}
+[3.510881] (-) TimerEvent: {}
+[3.611179] (-) TimerEvent: {}
+[3.711459] (-) TimerEvent: {}
+[3.811795] (-) TimerEvent: {}
+[3.912074] (-) TimerEvent: {}
+[4.012431] (-) TimerEvent: {}
+[4.112698] (-) TimerEvent: {}
+[4.212948] (-) TimerEvent: {}
+[4.313289] (-) TimerEvent: {}
+[4.413591] (-) TimerEvent: {}
+[4.513949] (-) TimerEvent: {}
+[4.614167] (-) TimerEvent: {}
+[4.714506] (-) TimerEvent: {}
+[4.814816] (-) TimerEvent: {}
+[4.915158] (-) TimerEvent: {}
+[5.015505] (-) TimerEvent: {}
+[5.115836] (-) TimerEvent: {}
+[5.216156] (-) TimerEvent: {}
+[5.316504] (-) TimerEvent: {}
+[5.416838] (-) TimerEvent: {}
+[5.517180] (-) TimerEvent: {}
+[5.617513] (-) TimerEvent: {}
+[5.717850] (-) TimerEvent: {}
+[5.818165] (-) TimerEvent: {}
+[5.918509] (-) TimerEvent: {}
+[6.018819] (-) TimerEvent: {}
+[6.119161] (-) TimerEvent: {}
+[6.219484] (-) TimerEvent: {}
+[6.319775] (-) TimerEvent: {}
+[6.420152] (-) TimerEvent: {}
+[6.520451] (-) TimerEvent: {}
+[6.620773] (-) TimerEvent: {}
+[6.721132] (-) TimerEvent: {}
+[6.821452] (-) TimerEvent: {}
+[6.921814] (-) TimerEvent: {}
+[7.022208] (-) TimerEvent: {}
+[7.122565] (-) TimerEvent: {}
+[7.222930] (-) TimerEvent: {}
+[7.323291] (-) TimerEvent: {}
+[7.423663] (-) TimerEvent: {}
+[7.524031] (-) TimerEvent: {}
+[7.624402] (-) TimerEvent: {}
+[7.724775] (-) TimerEvent: {}
+[7.825136] (-) TimerEvent: {}
+[7.925501] (-) TimerEvent: {}
+[8.025863] (-) TimerEvent: {}
+[8.126237] (-) TimerEvent: {}
+[8.226615] (-) TimerEvent: {}
+[8.326979] (-) TimerEvent: {}
+[8.427346] (-) TimerEvent: {}
+[8.527628] (-) TimerEvent: {}
+[8.627998] (-) TimerEvent: {}
+[8.728388] (-) TimerEvent: {}
+[8.828708] (-) TimerEvent: {}
+[8.929083] (-) TimerEvent: {}
+[9.029452] (-) TimerEvent: {}
+[9.129830] (-) TimerEvent: {}
+[9.230220] (-) TimerEvent: {}
+[9.330582] (-) TimerEvent: {}
+[9.430954] (-) TimerEvent: {}
+[9.531270] (-) TimerEvent: {}
+[9.631644] (-) TimerEvent: {}
+[9.732014] (-) TimerEvent: {}
+[9.832393] (-) TimerEvent: {}
+[9.932686] (-) TimerEvent: {}
+[10.033043] (-) TimerEvent: {}
+[10.133416] (-) TimerEvent: {}
+[10.233782] (-) TimerEvent: {}
+[10.334072] (-) TimerEvent: {}
+[10.434426] (-) TimerEvent: {}
+[10.534773] (-) TimerEvent: {}
+[10.635145] (-) TimerEvent: {}
+[10.735479] (-) TimerEvent: {}
+[10.835851] (-) TimerEvent: {}
+[10.936214] (-) TimerEvent: {}
+[10.972655] (orbslam_pub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable getpose\x1b[0m\n'}
+[11.036476] (-) TimerEvent: {}
+[11.136743] (-) TimerEvent: {}
+[11.237049] (-) TimerEvent: {}
+[11.337362] (-) TimerEvent: {}
+[11.437744] (-) TimerEvent: {}
+[11.521708] (orbslam_pub) StdoutLine: {'line': b'[100%] Built target getpose\n'}
+[11.532106] (orbslam_pub) CommandEnded: {'returncode': 0}
+[11.532896] (orbslam_pub) JobProgress: {'identifier': 'orbslam_pub', 'progress': 'install'}
+[11.537471] (orbslam_pub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub'], 'cwd': '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'niraamay'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/niraamay'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/niraamay/isro_ros2_try/ros_ws/src'), ('DESKTOP_SESSION', 'cinnamon'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '\\[\\033[1;32m\\]\\u@\\h\\[\\033[0m\\]:\\[\\033[1;34m\\]\\w\\[\\033[1;33m\\]$(parse_git_branch)\\[\\033[0m\\]$'), ('MANAGERPID', '2310'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2325'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=398e77283f3fa2dce99a157868291052'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install:/home/niraamay/isro_ros2_try/ros_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niraamay'), ('JOURNAL_STREAM', '8:40639'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/niraamay/.local/bin:/opt/ros/humble/bin:/home/niraamay/miniconda3/condabin:/home/niraamay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nhp:@/tmp/.ICE-unix/2326,unix/nhp:/tmp/.ICE-unix/2326'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '750f55c2715045e29b2b836fd0dfe1d5'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'X-Cinnamon'), ('TILIX_ID', 'e1e076da-bb93-43a4-8643-b776edc8f020'), ('XDG_SESSION_DESKTOP', 'cinnamon'), ('XAUTHORITY', '/home/niraamay/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/niraamay'), ('AMENT_PREFIX_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install/py_img_sub:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras:/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/src/install/py_img_sub:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/niraamay/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'cinnamon'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-cinnamon:/etc/xdg'), ('CONDA_EXE', '/home/niraamay/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=398e77283f3fa2dce99a157868291052'), ('XDG_DATA_DIRS', '/usr/share/cinnamon:/usr/share/gnome:/home/niraamay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/niraamay/isro_ros2_try/ros_ws/install/py_img_sub/lib/python3.10/site-packages:/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg/lib/python3.10/site-packages:/home/niraamay/isro_ros2_try/ros_ws/src/install/py_img_sub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras:/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/py_img_sub:/home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg:/home/niraamay/isro_ros2_try/ros_ws/src/install/py_img_sub:/opt/ros/humble')]), 'shell': False}
+[11.537753] (-) TimerEvent: {}
+[11.541276] (orbslam_pub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.541392] (orbslam_pub) StdoutLine: {'line': b'-- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/lib/orbslam_pub/getpose\n'}
+[11.543336] (orbslam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/ament_index/resource_index/package_run_dependencies/orbslam_pub\n'}
+[11.543466] (orbslam_pub) StdoutLine: {'line': b'-- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/ament_index/resource_index/parent_prefix_path/orbslam_pub\n'}
+[11.543632] (orbslam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/environment/ament_prefix_path.sh\n'}
+[11.543701] (orbslam_pub) StdoutLine: {'line': b'-- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/environment/ament_prefix_path.dsv\n'}
+[11.543763] (orbslam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/environment/path.sh\n'}
+[11.543823] (orbslam_pub) StdoutLine: {'line': b'-- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/environment/path.dsv\n'}
+[11.543881] (orbslam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/local_setup.bash\n'}
+[11.543938] (orbslam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/local_setup.sh\n'}
+[11.543997] (orbslam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/local_setup.zsh\n'}
+[11.544054] (orbslam_pub) StdoutLine: {'line': b'-- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/local_setup.dsv\n'}
+[11.544113] (orbslam_pub) StdoutLine: {'line': b'-- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/package.dsv\n'}
+[11.544291] (orbslam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/ament_index/resource_index/packages/orbslam_pub\n'}
+[11.544564] (orbslam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/cmake/orbslam_pubConfig.cmake\n'}
+[11.545093] (orbslam_pub) StdoutLine: {'line': b'-- Up-to-date: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/cmake/orbslam_pubConfig-version.cmake\n'}
+[11.545192] (orbslam_pub) StdoutLine: {'line': b'-- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/package.xml\n'}
+[11.545227] (orbslam_pub) CommandEnded: {'returncode': 0}
+[11.553962] (orbslam_pub) JobEnded: {'identifier': 'orbslam_pub', 'rc': 0}
+[11.554317] (-) EventReactorShutdown: {}

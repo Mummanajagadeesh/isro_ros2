@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.000819] (-) JobUnselected: {'identifier': 'camera_feed_pub'}
+[0.001033] (-) JobUnselected: {'identifier': 'drone_control_pkg'}
+[0.001056] (-) JobUnselected: {'identifier': 'py_img_sub'}
+[0.001076] (orbslam_pub) JobQueued: {'identifier': 'orbslam_pub', 'dependencies': OrderedDict()}
+[0.001210] (orbslam_pub) JobStarted: {'identifier': 'orbslam_pub'}
+[0.008895] (orbslam_pub) JobProgress: {'identifier': 'orbslam_pub', 'progress': 'cmake'}
+[0.009533] (orbslam_pub) JobProgress: {'identifier': 'orbslam_pub', 'progress': 'build'}
+[0.010211] (orbslam_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub', '--', '-j16', '-l16'], 'cwd': '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'niraamay'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/niraamay'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/niraamay/isro_ros2_try/ros_ws/src'), ('DESKTOP_SESSION', 'cinnamon'), ('ROS_PYTHON_VERSION', '3'), ('GTK_MODULES', 'gail:atk-bridge'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('PS1', '\\[\\033[1;32m\\]\\u@\\h\\[\\033[0m\\]:\\[\\033[1;34m\\]\\w\\[\\033[1;33m\\]$(parse_git_branch)\\[\\033[0m\\]$'), ('MANAGERPID', '2310'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2325'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=398e77283f3fa2dce99a157868291052'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('QT_QPA_PLATFORMTHEME', 'qt5ct'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install:/home/niraamay/isro_ros2_try/ros_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'niraamay'), ('JOURNAL_STREAM', '8:40639'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/niraamay/.local/bin:/opt/ros/humble/bin:/home/niraamay/miniconda3/condabin:/home/niraamay/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nhp:@/tmp/.ICE-unix/2326,unix/nhp:/tmp/.ICE-unix/2326'), ('GDM_LANG', 'en_US'), ('INVOCATION_ID', '750f55c2715045e29b2b836fd0dfe1d5'), ('GTK3_MODULES', 'xapp-gtk3-module'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'X-Cinnamon'), ('TILIX_ID', 'e1e076da-bb93-43a4-8643-b776edc8f020'), ('XDG_SESSION_DESKTOP', 'cinnamon'), ('XAUTHORITY', '/home/niraamay/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/niraamay'), ('AMENT_PREFIX_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install/py_img_sub:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras:/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/src/install/py_img_sub:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/niraamay/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'cinnamon'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('PWD', '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-cinnamon:/etc/xdg'), ('CONDA_EXE', '/home/niraamay/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=398e77283f3fa2dce99a157868291052'), ('XDG_DATA_DIRS', '/usr/share/cinnamon:/usr/share/gnome:/home/niraamay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/niraamay/isro_ros2_try/ros_ws/install/py_img_sub/lib/python3.10/site-packages:/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:/home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg/lib/python3.10/site-packages:/home/niraamay/isro_ros2_try/ros_ws/src/install/py_img_sub/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras:/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/py_img_sub:/home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg:/home/niraamay/isro_ros2_try/ros_ws/src/install/py_img_sub:/opt/ros/humble')]), 'shell': False}
+[0.046056] (orbslam_pub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100106] (-) TimerEvent: {}
+[0.192411] (orbslam_pub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.200243] (-) TimerEvent: {}
+[0.224746] (orbslam_pub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.227218] (orbslam_pub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.233687] (orbslam_pub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.244694] (orbslam_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.257984] (orbslam_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.293413] (orbslam_pub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.295038] (orbslam_pub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300333] (-) TimerEvent: {}
+[0.400677] (-) TimerEvent: {}
+[0.408307] (orbslam_pub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.461021] (orbslam_pub) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.492383] (orbslam_pub) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.500795] (-) TimerEvent: {}
+[0.502164] (orbslam_pub) StdoutLine: {'line': b'-- Found image_transport: 3.1.11 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[0.601032] (-) TimerEvent: {}
+[0.615479] (orbslam_pub) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.629702] (orbslam_pub) StdoutLine: {'line': b'-- Generating done\n'}
+[0.634634] (orbslam_pub) StdoutLine: {'line': b'-- Build files have been written to: /home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub\n'}
+[0.661206] (orbslam_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target getpose\x1b[0m\n'}
+[0.689227] (orbslam_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o\x1b[0m\n'}
+[0.701175] (-) TimerEvent: {}
+[0.801621] (-) TimerEvent: {}
+[0.902104] (-) TimerEvent: {}
+[1.002499] (-) TimerEvent: {}
+[1.102931] (-) TimerEvent: {}
+[1.203234] (-) TimerEvent: {}
+[1.303542] (-) TimerEvent: {}
+[1.403842] (-) TimerEvent: {}
+[1.504267] (-) TimerEvent: {}
+[1.604574] (-) TimerEvent: {}
+[1.704865] (-) TimerEvent: {}
+[1.805184] (-) TimerEvent: {}
+[1.905489] (-) TimerEvent: {}
+[2.005769] (-) TimerEvent: {}
+[2.106052] (-) TimerEvent: {}
+[2.206356] (-) TimerEvent: {}
+[2.306673] (-) TimerEvent: {}
+[2.406961] (-) TimerEvent: {}
+[2.507265] (-) TimerEvent: {}
+[2.607612] (-) TimerEvent: {}
+[2.708044] (-) TimerEvent: {}
+[2.808383] (-) TimerEvent: {}
+[2.908839] (-) TimerEvent: {}
+[3.009308] (-) TimerEvent: {}
+[3.109721] (-) TimerEvent: {}
+[3.210158] (-) TimerEvent: {}
+[3.310532] (-) TimerEvent: {}
+[3.411088] (-) TimerEvent: {}
+[3.511477] (-) TimerEvent: {}
+[3.611861] (-) TimerEvent: {}
+[3.712230] (-) TimerEvent: {}
+[3.812543] (-) TimerEvent: {}
+[3.912880] (-) TimerEvent: {}
+[4.013153] (-) TimerEvent: {}
+[4.113417] (-) TimerEvent: {}
+[4.213650] (-) TimerEvent: {}
+[4.313905] (-) TimerEvent: {}
+[4.414188] (-) TimerEvent: {}
+[4.514510] (-) TimerEvent: {}
+[4.614829] (-) TimerEvent: {}
+[4.715056] (-) TimerEvent: {}
+[4.815297] (-) TimerEvent: {}
+[4.915616] (-) TimerEvent: {}
+[5.015931] (-) TimerEvent: {}
+[5.116160] (-) TimerEvent: {}
+[5.216494] (-) TimerEvent: {}
+[5.316807] (-) TimerEvent: {}
+[5.417118] (-) TimerEvent: {}
+[5.517429] (-) TimerEvent: {}
+[5.609403] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro_ros2_try/ros_ws/src/orbslam_pub/src/orbslam_getpose.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PosePublisher::init()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.609547] (orbslam_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/niraamay/isro_ros2_try/ros_ws/src/orbslam_pub/src/orbslam_getpose.cpp:31:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimage_transport_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kimage_transport\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.609586] (orbslam_pub) StderrLine: {'line': b'   31 |       \x1b[01;31m\x1b[Kimage_transport_\x1b[m\x1b[K = std::make_shared<image_transport::ImageTransport>(shared_from_this());\n'}
+[5.609617] (orbslam_pub) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.609649] (orbslam_pub) StderrLine: {'line': b'      |       \x1b[32m\x1b[Kimage_transport\x1b[m\x1b[K\n'}
+[5.617591] (-) TimerEvent: {}
+[5.717861] (-) TimerEvent: {}
+[5.818211] (-) TimerEvent: {}
+[5.918518] (-) TimerEvent: {}
+[6.018839] (-) TimerEvent: {}
+[6.119073] (-) TimerEvent: {}
+[6.219396] (-) TimerEvent: {}
+[6.319727] (-) TimerEvent: {}
+[6.419974] (-) TimerEvent: {}
+[6.520281] (-) TimerEvent: {}
+[6.620595] (-) TimerEvent: {}
+[6.720914] (-) TimerEvent: {}
+[6.821232] (-) TimerEvent: {}
+[6.921570] (-) TimerEvent: {}
+[7.021883] (-) TimerEvent: {}
+[7.122131] (-) TimerEvent: {}
+[7.222442] (-) TimerEvent: {}
+[7.322760] (-) TimerEvent: {}
+[7.423101] (-) TimerEvent: {}
+[7.523408] (-) TimerEvent: {}
+[7.623749] (-) TimerEvent: {}
+[7.724062] (-) TimerEvent: {}
+[7.824392] (-) TimerEvent: {}
+[7.924721] (-) TimerEvent: {}
+[8.025055] (-) TimerEvent: {}
+[8.125401] (-) TimerEvent: {}
+[8.225773] (-) TimerEvent: {}
+[8.326150] (-) TimerEvent: {}
+[8.426521] (-) TimerEvent: {}
+[8.526895] (-) TimerEvent: {}
+[8.627171] (-) TimerEvent: {}
+[8.727472] (-) TimerEvent: {}
+[8.827840] (-) TimerEvent: {}
+[8.928201] (-) TimerEvent: {}
+[9.028578] (-) TimerEvent: {}
+[9.128960] (-) TimerEvent: {}
+[9.229244] (-) TimerEvent: {}
+[9.329618] (-) TimerEvent: {}
+[9.429993] (-) TimerEvent: {}
+[9.530294] (-) TimerEvent: {}
+[9.630660] (-) TimerEvent: {}
+[9.730941] (-) TimerEvent: {}
+[9.831387] (-) TimerEvent: {}
+[9.931835] (-) TimerEvent: {}
+[10.032214] (-) TimerEvent: {}
+[10.132623] (-) TimerEvent: {}
+[10.232929] (-) TimerEvent: {}
+[10.333307] (-) TimerEvent: {}
+[10.433691] (-) TimerEvent: {}
+[10.484583] (orbslam_pub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/getpose.dir/build.make:76: CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o] Error 1\n'}
+[10.484907] (orbslam_pub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/getpose.dir/all] Error 2\n'}
+[10.485186] (orbslam_pub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.487336] (orbslam_pub) CommandEnded: {'returncode': 2}
+[10.497361] (orbslam_pub) JobEnded: {'identifier': 'orbslam_pub', 'rc': 2}
+[10.507808] (-) EventReactorShutdown: {}

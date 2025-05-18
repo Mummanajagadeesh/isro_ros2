@@ -1,0 +1,99 @@
+[0.004s] Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavros/libmavconn -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn
+[0.034s] -- The C compiler identification is GNU 11.4.0
+[0.064s] -- The CXX compiler identification is GNU 11.4.0
+[0.068s] -- Detecting C compiler ABI info
+[0.103s] -- Detecting C compiler ABI info - done
+[0.107s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.107s] -- Detecting C compile features
+[0.107s] -- Detecting C compile features - done
+[0.109s] -- Detecting CXX compiler ABI info
+[0.151s] -- Detecting CXX compiler ABI info - done
+[0.157s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.157s] -- Detecting CXX compile features
+[0.157s] -- Detecting CXX compile features - done
+[0.158s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.245s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.301s] -- Found ASIO: /usr/include  
+[0.377s] -- Copy mavlink_dialect.hpp to source tree
+[0.378s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.379s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.429s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.430s] -- Looking for pthread.h
+[0.470s] -- Looking for pthread.h - found
+[0.470s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.508s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.508s] -- Found Threads: TRUE  
+[0.511s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.512s] -- Configured cppcheck include dirs: /home/niraamay/isro_ros2_try/ros_ws/src/mavros/libmavconn/include
+[0.512s] -- Configured cppcheck exclude dirs and/or files: 
+[0.512s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.512s] -- Configured cpplint exclude dirs and/or files: 
+[0.513s] -- Added test 'lint_cmake' to check CMake code style
+[0.513s] -- Added test 'uncrustify' to check C / C++ code style
+[0.513s] -- Configured uncrustify additional arguments: 
+[0.514s] -- Added test 'xmllint' to check XML markup files
+[0.515s] -- Configuring done
+[0.519s] -- Generating done
+[0.521s] -- Build files have been written to: /home/niraamay/isro_ros2_try/ros_ws/build/libmavconn
+[0.524s] Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavros/libmavconn -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn
+[0.525s] Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/libmavconn -- -j16 -l16
+[0.546s] [ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.547s] [ 41%] [32mBuilding CXX object CMakeFiles/mavconn.dir/generated/src/mavlink_helpers.cpp.o[0m
+[0.547s] [ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.547s] [ 41%] [32mBuilding CXX object CMakeFiles/mavconn.dir/src/interface.cpp.o[0m
+[0.547s] [ 41%] [32mBuilding CXX object CMakeFiles/mavconn.dir/src/serial.cpp.o[0m
+[0.548s] [ 58%] [32mBuilding CXX object CMakeFiles/mavconn.dir/src/udp.cpp.o[0m
+[0.548s] [ 50%] [32mBuilding CXX object CMakeFiles/mavconn.dir/src/tcp.cpp.o[0m
+[1.289s] [ 66%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[1.307s] [ 66%] Built target gtest_main
+[3.080s] [ 75%] [32m[1mLinking CXX static library libgtest.a[0m
+[3.122s] [ 75%] Built target gtest
+[4.596s] [ 83%] [32m[1mLinking CXX shared library libmavconn.so[0m
+[4.715s] [ 83%] Built target mavconn
+[4.725s] [ 91%] [32mBuilding CXX object CMakeFiles/test_mavconn.dir/test/test_mavconn.cpp.o[0m
+[7.685s] [100%] [32m[1mLinking CXX executable test_mavconn[0m
+[7.839s] [100%] Built target test_mavconn
+[7.848s] Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/libmavconn -- -j16 -l16
+[7.850s] Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/libmavconn
+[7.855s] -- Install configuration: ""
+[7.856s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib/libmavconn.so
+[7.858s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/include
+[7.858s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/include/mavconn
+[7.858s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp
+[7.858s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/include/mavconn/console_bridge_compat.hpp
+[7.858s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/include/mavconn/udp.hpp
+[7.859s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/include/mavconn/msgbuffer.hpp
+[7.859s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp.em
+[7.859s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/include/mavconn/serial.hpp
+[7.859s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/include/mavconn/interface.hpp
+[7.859s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/include/mavconn/thread_utils.hpp
+[7.859s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/include/mavconn/tcp.hpp
+[7.860s] -- Up-to-date: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/include/mavconn
+[7.860s] -- Up-to-date: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/include/mavconn/mavlink_dialect.hpp
+[7.860s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/cmake
+[7.860s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/cmake/Modules
+[7.860s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/cmake/Modules/FindASIO.cmake
+[7.860s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/cmake/Modules/em_expand.cmake
+[7.860s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/cmake/Modules/CheckGeographicLibDatasets.cmake
+[7.860s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/environment/library_path.sh
+[7.861s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/environment/library_path.dsv
+[7.861s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/ament_index/resource_index/package_run_dependencies/libmavconn
+[7.861s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/ament_index/resource_index/parent_prefix_path/libmavconn
+[7.861s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/environment/ament_prefix_path.sh
+[7.861s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/environment/ament_prefix_path.dsv
+[7.861s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/environment/path.sh
+[7.862s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/environment/path.dsv
+[7.863s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/local_setup.bash
+[7.863s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/local_setup.sh
+[7.863s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/local_setup.zsh
+[7.863s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/local_setup.dsv
+[7.863s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/package.dsv
+[7.864s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/ament_index/resource_index/packages/libmavconn
+[7.864s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/cmake/libmavconn-extras.cmake
+[7.864s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.864s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.865s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/cmake/ament_cmake_export_libraries-extras.cmake
+[7.865s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/cmake/libmavconnConfig.cmake
+[7.865s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/cmake/libmavconnConfig-version.cmake
+[7.866s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/package.xml
+[7.866s] Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/libmavconn

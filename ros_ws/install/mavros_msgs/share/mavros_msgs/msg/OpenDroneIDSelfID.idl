@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mavros_msgs/msg/OpenDroneIDSelfID.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module mavros_msgs {
+  module msg {
+    module OpenDroneIDSelfID_Constants {
+      @verbatim (language="comment", text=
+        "[[[cog:" "\n"        "import mavros_cog" "\n"        "mavros_cog.idl_decl_enum('MAV_ODID_DESC_TYPE', 'DESC_TYPE_')" "\n"        "]]]" "\n"        "MAV_ODID_DESC_TYPE" "\n"        "Free-form text description of the purpose of the flight.")
+      const uint8 DESC_TYPE_TEXT = 0;
+      @verbatim (language="comment", text=
+        "Optional additional clarification when status == MAV_ODID_STATUS_EMERGENCY.")
+      const uint8 DESC_TYPE_EMERGENCY = 1;
+      @verbatim (language="comment", text=
+        "Optional additional clarification when status != MAV_ODID_STATUS_EMERGENCY.")
+      const uint8 DESC_TYPE_EXTENDED_STATUS = 2;
+    };
+    @verbatim (language="comment", text=
+      "Remote ID message - Self ID" "\n"
+      "https://mavlink.io/en/messages/common.html#OPEN_DRONE_ID_SELF_ID")
+    struct OpenDroneIDSelfID {
+      @verbatim (language="comment", text=
+        "]] (checksum: 08bf4b7e669d01d655893e5d543f86b1)")
+      @unit (value="[[end")
+      std_msgs::msg::Header header;
+
+      string id_or_mac;
+
+      uint8 description_type;
+
+      string description;
+    };
+  };
+};

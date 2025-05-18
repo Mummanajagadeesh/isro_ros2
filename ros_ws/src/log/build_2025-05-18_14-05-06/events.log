@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (-) JobUnselected: {'identifier': 'camera_feed_pub'}
+[0.000279] (-) JobUnselected: {'identifier': 'drone_control_pkg'}
+[0.000296] (-) JobUnselected: {'identifier': 'orbslam_pub'}
+[0.000311] (-) JobUnselected: {'identifier': 'py_img_sub'}
+[0.000689] (-) EventReactorShutdown: {}

@@ -1,0 +1,274 @@
+[0.007s] Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/mavros
+[0.035s] -- The C compiler identification is GNU 11.4.0
+[0.064s] -- The CXX compiler identification is GNU 11.4.0
+[0.068s] -- Detecting C compiler ABI info
+[0.103s] -- Detecting C compiler ABI info - done
+[0.107s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.107s] -- Detecting C compile features
+[0.107s] -- Detecting C compile features - done
+[0.109s] -- Detecting CXX compiler ABI info
+[0.149s] -- Detecting CXX compiler ABI info - done
+[0.153s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.153s] -- Detecting CXX compile features
+[0.154s] -- Detecting CXX compile features - done
+[0.155s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.240s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.290s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.316s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.319s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.324s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.342s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.369s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.371s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.415s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.431s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.456s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.461s] -- Looking for pthread.h
+[0.499s] -- Looking for pthread.h - found
+[0.499s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.536s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.537s] -- Found Threads: TRUE  
+[0.568s] -- Found rclcpp_components: 16.0.11 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.587s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.597s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[0.600s] -- Found libmavconn: 2.10.0 (/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/cmake)
+[0.602s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.607s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.608s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu  
+[0.609s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.611s] -- Found eigen_stl_containers: 1.1.0 (/opt/ros/humble/share/eigen_stl_containers/cmake)
+[0.613s] -- Found tf2_eigen: 0.25.12 (/opt/ros/humble/share/tf2_eigen/cmake)
+[0.675s] -- Found diagnostic_msgs: 4.2.4 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.685s] -- Found diagnostic_updater: 4.0.4 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[0.689s] -- Found geographic_msgs: 1.0.6 (/opt/ros/humble/share/geographic_msgs/cmake)
+[0.700s] -- Found mavros_msgs: 2.10.0 (/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/cmake)
+[0.724s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.737s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.745s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[0.757s] -- Geoid model datasets found in: /usr/share/GeographicLib/geoid
+[0.757s] -- Gravity Field model datasets found in: /usr/share/GeographicLib/gravity
+[0.757s] -- Magnetic Field model datasets found in: /usr/share/GeographicLib/magnetic
+[0.815s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.816s] -- Found ament_cmake_gmock: 1.3.11 (/opt/ros/humble/share/ament_cmake_gmock/cmake)
+[0.817s] -- Found ament_cmake_pytest: 1.3.11 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.818s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.877s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.884s] -- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.183s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.184s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros/include>
+[1.184s] -- Configured cppcheck exclude dirs and/or files: ./test/*.cpp
+[1.186s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.186s] -- Configured cpplint exclude dirs and/or files: 
+[1.186s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.187s] -- Added test 'lint_cmake' to check CMake code style
+[1.187s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.189s] -- Added test 'uncrustify' to check C / C++ code style
+[1.189s] -- Configured uncrustify additional arguments: 
+[1.189s] -- Added test 'xmllint' to check XML markup files
+[1.191s] -- Configuring done
+[1.226s] -- Generating done
+[1.239s] -- Build files have been written to: /home/niraamay/isro_ros2_try/ros_ws/build/mavros
+[1.248s] Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/mavros
+[1.248s] Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/mavros -- -j16 -l16
+[1.274s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.274s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[1.275s] [  4%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/enum_sensor_orientation.cpp.o[0m
+[1.275s] [  6%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/enum_to_string.cpp.o[0m
+[1.275s] [  8%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/plugin.cpp.o[0m
+[1.275s] [  9%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/ftf_frame_conversions.cpp.o[0m
+[1.275s] [ 12%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/mavros_router.cpp.o[0m
+[1.275s] [ 12%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_ap.cpp.o[0m
+[1.275s] [ 14%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/mavros_uas.cpp.o[0m
+[1.275s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[1.276s] [ 17%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/ftf_quaternion_utils.cpp.o[0m
+[1.277s] [ 19%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_data.cpp.o[0m
+[1.281s] [ 19%] Built target ament_cmake_python_copy_mavros_setup
+[1.282s] [ 20%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_executor.cpp.o[0m
+[1.283s] [ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[1.283s] [ 22%] Built target ament_cmake_python_copy_mavros
+[1.287s] [ 24%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_stringify.cpp.o[0m
+[1.291s] [ 25%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[2.781s] [ 27%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[2.824s] [ 27%] Built target gtest_main
+[3.219s] running egg_info
+[3.220s] creating mavros.egg-info
+[3.220s] writing mavros.egg-info/PKG-INFO
+[3.221s] writing dependency_links to mavros.egg-info/dependency_links.txt
+[3.221s] writing entry points to mavros.egg-info/entry_points.txt
+[3.221s] writing top-level names to mavros.egg-info/top_level.txt
+[3.221s] writing manifest file 'mavros.egg-info/SOURCES.txt'
+[3.225s] reading manifest file 'mavros.egg-info/SOURCES.txt'
+[3.225s] writing manifest file 'mavros.egg-info/SOURCES.txt'
+[3.272s] [ 27%] Built target ament_cmake_python_build_mavros_egg
+[3.301s] [ 29%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_tf.cpp.o[0m
+[3.511s] [ 30%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[3.572s] [ 30%] Built target gmock_main
+[3.584s] [ 32%] [32mBuilding CXX object CMakeFiles/mavros.dir/src/lib/uas_timesync.cpp.o[0m
+[6.512s] [ 33%] [32m[1mLinking CXX static library libgmock.a[0m
+[6.628s] [ 33%] Built target gmock
+[6.950s] [ 35%] [32m[1mLinking CXX static library libgtest.a[0m
+[7.058s] [ 35%] Built target gtest
+[21.720s] [ 37%] [32m[1mLinking CXX shared library libmavros.so[0m
+[23.208s] [ 37%] Built target mavros
+[23.227s] [ 40%] [32mBuilding CXX object CMakeFiles/libmavros-frame-conversions-test.dir/test/test_frame_conversions.cpp.o[0m
+[23.227s] [ 40%] [32mBuilding CXX object CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o[0m
+[23.228s] [ 41%] [32mBuilding CXX object CMakeFiles/libmavros-sensor-orientation-test.dir/test/test_sensor_orientation.cpp.o[0m
+[23.228s] [ 43%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/actuator_control.cpp.o[0m
+[23.228s] [ 45%] [32mBuilding CXX object CMakeFiles/libmavros-quaternion-utils-test.dir/test/test_quaternion_utils.cpp.o[0m
+[23.229s] [ 46%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/imu.cpp.o[0m
+[23.229s] [ 48%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/altitude.cpp.o[0m
+[23.229s] [ 50%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/dummy.cpp.o[0m
+[23.230s] [ 51%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/ftp.cpp.o[0m
+[23.230s] [ 53%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/local_position.cpp.o[0m
+[23.231s] [ 54%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/command.cpp.o[0m
+[23.231s] [ 56%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/global_position.cpp.o[0m
+[23.232s] [ 58%] [32mBuilding CXX object CMakeFiles/mavros-router-test.dir/test/test_router.cpp.o[0m
+[23.233s] [ 59%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/home_position.cpp.o[0m
+[23.233s] [ 61%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/geofence.cpp.o[0m
+[23.245s] [ 62%] [32mBuilding CXX object CMakeFiles/mavros-uas-test.dir/test/test_uas.cpp.o[0m
+[35.188s] [ 64%] [32m[1mLinking CXX executable libmavros-quaternion-utils-test[0m
+[36.076s] [ 66%] [32m[1mLinking CXX executable libmavros-frame-conversions-test[0m
+[38.161s] [ 66%] Built target libmavros-quaternion-utils-test
+[38.205s] [ 67%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/manual_control.cpp.o[0m
+[38.835s] [ 67%] Built target libmavros-frame-conversions-test
+[38.847s] [ 69%] [32m[1mLinking CXX executable libmavros-sensor-orientation-test[0m
+[38.849s] [ 70%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/mission_protocol_base.cpp.o[0m
+[40.224s] [ 72%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/nav_controller_output.cpp.o[0m
+[40.940s] [ 72%] Built target libmavros-sensor-orientation-test
+[40.964s] [ 74%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/param.cpp.o[0m
+[45.530s] [ 75%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/rallypoint.cpp.o[0m
+[48.413s] [ 77%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/rc_io.cpp.o[0m
+[48.755s] [ 79%] [32m[1mLinking CXX executable mavros_node[0m
+[50.698s] [ 80%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_accel.cpp.o[0m
+[50.921s] [ 82%] [32m[1mLinking CXX executable mavros-router-test[0m
+[51.125s] [ 82%] Built target mavros_node
+[51.143s] [ 83%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_attitude.cpp.o[0m
+[52.790s] [ 85%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_position.cpp.o[0m
+[53.474s] [ 87%] [32m[1mLinking CXX executable mavros-uas-test[0m
+[54.504s] [ 87%] Built target mavros-router-test
+[54.523s] [ 88%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_raw.cpp.o[0m
+[55.051s] [ 90%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_trajectory.cpp.o[0m
+[55.164s] [ 91%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/setpoint_velocity.cpp.o[0m
+[56.958s] [ 93%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/sys_status.cpp.o[0m
+[56.964s] [ 93%] Built target mavros-uas-test
+[56.985s] [ 95%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/sys_time.cpp.o[0m
+[62.382s] [ 96%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/waypoint.cpp.o[0m
+[63.369s] [ 98%] [32mBuilding CXX object CMakeFiles/mavros_plugins.dir/src/plugins/wind_estimation.cpp.o[0m
+[96.594s] [100%] [32m[1mLinking CXX shared library libmavros_plugins.so[0m
+[106.037s] [100%] Built target mavros_plugins
+[106.049s] Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/mavros -- -j16 -l16
+[106.051s] Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/mavros
+[106.057s] -- Install configuration: ""
+[106.057s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/mavros_plugins.xml
+[106.057s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/environment/pythonpath.sh
+[106.057s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/environment/pythonpath.dsv
+[106.058s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.0-py3.10.egg-info
+[106.058s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.0-py3.10.egg-info/dependency_links.txt
+[106.058s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.0-py3.10.egg-info/SOURCES.txt
+[106.058s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.0-py3.10.egg-info/entry_points.txt
+[106.058s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.0-py3.10.egg-info/PKG-INFO
+[106.058s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros-2.10.0-py3.10.egg-info/top_level.txt
+[106.058s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros
+[106.058s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/command.py
+[106.058s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/__init__.py
+[106.058s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd
+[106.058s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/checkid.py
+[106.059s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/__init__.py
+[106.059s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/__main__.py
+[106.059s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/safety.py
+[106.059s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/system.py
+[106.059s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/mission.py
+[106.059s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/utils.py
+[106.059s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/ftp.py
+[106.059s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/cmd.py
+[106.060s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/param.py
+[106.060s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/setpoint.py
+[106.060s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/local_position.py
+[106.060s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/system.py
+[106.060s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/nuttx_crc32.py
+[106.060s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/mission.py
+[106.060s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/utils.py
+[106.060s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/ftp.py
+[106.060s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/global_position.py
+[106.060s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/base.py
+[106.061s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/param.py
+[106.061s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/mavlink.py
+[106.104s] Listing '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros'...
+[106.104s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/__init__.py'...
+[106.104s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/base.py'...
+[106.104s] Listing '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd'...
+[106.104s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/__init__.py'...
+[106.104s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/__main__.py'...
+[106.104s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/checkid.py'...
+[106.104s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/cmd.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/ftp.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/mission.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/param.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/safety.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/system.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/cmd/utils.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/command.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/ftp.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/global_position.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/local_position.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/mavlink.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/mission.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/nuttx_crc32.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/param.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/setpoint.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/system.py'...
+[106.105s] Compiling '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages/mavros/utils.py'...
+[106.107s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib/mavros/mav
+[106.107s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib/libmavros.so
+[106.118s] -- Set runtime path of "/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib/libmavros.so" to ""
+[106.118s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib/mavros/mavros_node
+[106.120s] -- Set runtime path of "/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib/mavros/mavros_node" to ""
+[106.120s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib/libmavros_plugins.so
+[106.179s] -- Set runtime path of "/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib/libmavros_plugins.so" to ""
+[106.179s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib/mavros/install_geographiclib_datasets.sh
+[106.179s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/include
+[106.179s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/include/mavros
+[106.179s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/include/mavros/plugin.hpp
+[106.179s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/include/mavros/plugin_filter.hpp
+[106.179s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/include/mavros/frame_tf.hpp
+[106.179s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/include/mavros/utils.hpp
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/include/mavros/mission_protocol_base.hpp
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/include/mavros/uas_executor.hpp
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/include/mavros/px4_custom_mode.hpp
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/include/mavros/mavros_router.hpp
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/include/mavros/mavros_plugin_register_macro.hpp
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/include/mavros/mavros_uas.hpp
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/include/mavros/setpoint_mixin.hpp
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/launch
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/launch/apm.launch
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/launch/px4_pluginlists.yaml
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/launch/px4_config.yaml
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/launch/node.launch
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/launch/multi_uas.launch
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/launch/apm_pluginlists.yaml
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/launch/apm_config.yaml
+[106.180s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/launch/px4.launch
+[106.181s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/environment/library_path.sh
+[106.181s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/environment/library_path.dsv
+[106.181s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/ament_index/resource_index/package_run_dependencies/mavros
+[106.181s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/ament_index/resource_index/parent_prefix_path/mavros
+[106.182s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/environment/ament_prefix_path.sh
+[106.182s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/environment/ament_prefix_path.dsv
+[106.182s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/environment/path.sh
+[106.182s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/environment/path.dsv
+[106.182s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/local_setup.bash
+[106.183s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/local_setup.sh
+[106.183s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/local_setup.zsh
+[106.183s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/local_setup.dsv
+[106.183s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/package.dsv
+[106.183s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/ament_index/resource_index/packages/mavros
+[106.183s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/ament_index/resource_index/mavros__pluginlib__plugin/mavros
+[106.183s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/ament_index/resource_index/rclcpp_components/mavros
+[106.184s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/cmake/ament_cmake_export_include_directories-extras.cmake
+[106.184s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/cmake/ament_cmake_export_libraries-extras.cmake
+[106.184s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/cmake/ament_cmake_export_dependencies-extras.cmake
+[106.184s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/cmake/mavrosConfig.cmake
+[106.184s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/cmake/mavrosConfig-version.cmake
+[106.185s] -- Installing: /home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/package.xml
+[106.187s] Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/mavros

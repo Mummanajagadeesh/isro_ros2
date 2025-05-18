@@ -1,0 +1,578 @@
+[0.106s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.106s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc7484d1a80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc7484d1630>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc7484d1630>>)
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.281s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/niraamay/isro_ros2_try/ros_ws'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_feed_pub) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_feed_pub' with type 'ros.ament_cmake' and name 'camera_feed_pub'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavlink) by extension 'ros'
+[0.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavlink' with type 'ros.cmake' and name 'mavlink'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'ros'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['cmake', 'python']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'cmake'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extensions ['python_setup_py']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros) by extension 'python_setup_py'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/libmavconn) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/libmavconn' with type 'ros.ament_cmake' and name 'libmavconn'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros' with type 'ros.ament_cmake' and name 'mavros'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_extras) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_extras' with type 'ros.ament_cmake' and name 'mavros_extras'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/mavros_msgs) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mavros/mavros_msgs' with type 'ros.ament_cmake' and name 'mavros_msgs'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/mavros/test_mavros) ignored
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam_pub) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/orbslam_pub' with type 'ros.ament_cmake' and name 'orbslam_pub'
+[0.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.347s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/niraamay/isro_ros2_try/ros_ws/install
+[0.348s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 316 installed packages in /opt/ros/humble
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'cmake_target' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'camera_feed_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.387s] DEBUG:colcon.colcon_core.verb:Building package 'camera_feed_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub', 'merge_install': False, 'path': '/home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub', 'symlink_install': False, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavlink' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'mavlink' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niraamay/isro_ros2_try/ros_ws/build/mavlink', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink', 'merge_install': False, 'path': '/home/niraamay/isro_ros2_try/ros_ws/src/mavlink', 'symlink_install': False, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'mavros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs', 'merge_install': False, 'path': '/home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'orbslam_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'orbslam_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub', 'merge_install': False, 'path': '/home/niraamay/isro_ros2_try/ros_ws/src/orbslam_pub', 'symlink_install': False, 'test_result_base': None}
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_target' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_clean_cache' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_clean_first' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'cmake_force_configure' from command line to 'False'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'ament_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'catkin_cmake_args' from command line to 'None'
+[0.389s] Level 5:colcon.colcon_core.verb:set package 'libmavconn' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.389s] DEBUG:colcon.colcon_core.verb:Building package 'libmavconn' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niraamay/isro_ros2_try/ros_ws/build/libmavconn', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn', 'merge_install': False, 'path': '/home/niraamay/isro_ros2_try/ros_ws/src/mavros/libmavconn', 'symlink_install': False, 'test_result_base': None}
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_target' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.390s] DEBUG:colcon.colcon_core.verb:Building package 'mavros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niraamay/isro_ros2_try/ros_ws/build/mavros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niraamay/isro_ros2_try/ros_ws/install/mavros', 'merge_install': False, 'path': '/home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros', 'symlink_install': False, 'test_result_base': None}
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_cache' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_clean_first' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'cmake_force_configure' from command line to 'False'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'ament_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_cmake_args' from command line to 'None'
+[0.390s] Level 5:colcon.colcon_core.verb:set package 'mavros_extras' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.391s] DEBUG:colcon.colcon_core.verb:Building package 'mavros_extras' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_extras', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras', 'merge_install': False, 'path': '/home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros_extras', 'symlink_install': False, 'test_result_base': None}
+[0.391s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.392s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.392s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/niraamay/isro_ros2_try/ros_ws/src/mavlink' with build type 'cmake'
+[0.392s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/niraamay/isro_ros2_try/ros_ws/src/mavlink'
+[0.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.397s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros_msgs' with build type 'ament_cmake'
+[0.398s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros_msgs'
+[0.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.401s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub' with build type 'ament_cmake'
+[0.401s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/niraamay/isro_ros2_try/ros_ws/src/camera_feed_pub'
+[0.401s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.404s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/niraamay/isro_ros2_try/ros_ws/src/orbslam_pub' with build type 'ament_cmake'
+[0.404s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/niraamay/isro_ros2_try/ros_ws/src/orbslam_pub'
+[0.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavlink': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavlink -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink
+[0.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs
+[0.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub -- -j16 -l16
+[0.423s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub -- -j16 -l16
+[0.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub -- -j16 -l16
+[0.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub
+[0.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub -- -j16 -l16
+[0.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub
+[0.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_feed_pub)
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/camera_feed_pub
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub' for CMake module files
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub' for CMake config files
+[0.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_feed_pub', 'cmake_prefix_path')
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/hook/cmake_prefix_path.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/hook/cmake_prefix_path.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/hook/cmake_prefix_path.sh'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/lib'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/bin'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/lib/pkgconfig/camera_feed_pub.pc'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/lib/python3.10/site-packages'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/bin'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/package.ps1'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/package.dsv'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/package.sh'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/package.bash'
+[0.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/package.zsh'
+[0.509s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/colcon-core/packages/camera_feed_pub)
+[0.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_feed_pub)
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub' for CMake module files
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub' for CMake config files
+[0.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_feed_pub', 'cmake_prefix_path')
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/hook/cmake_prefix_path.ps1'
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/hook/cmake_prefix_path.dsv'
+[0.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/hook/cmake_prefix_path.sh'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/lib'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/bin'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/lib/pkgconfig/camera_feed_pub.pc'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/lib/python3.10/site-packages'
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/bin'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/package.ps1'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/package.dsv'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/package.sh'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/package.bash'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/camera_feed_pub/package.zsh'
+[0.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub/share/colcon-core/packages/camera_feed_pub)
+[0.516s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbslam_pub)
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub' for CMake module files
+[0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/orbslam_pub
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub' for CMake config files
+[0.518s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam_pub', 'cmake_prefix_path')
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/hook/cmake_prefix_path.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/hook/cmake_prefix_path.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/hook/cmake_prefix_path.sh'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/lib'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/bin'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/lib/pkgconfig/orbslam_pub.pc'
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/lib/python3.10/site-packages'
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/bin'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/package.ps1'
+[0.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/package.dsv'
+[0.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/package.sh'
+[0.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/package.bash'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/package.zsh'
+[0.522s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/colcon-core/packages/orbslam_pub)
+[0.522s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbslam_pub)
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub' for CMake module files
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub' for CMake config files
+[0.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam_pub', 'cmake_prefix_path')
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/hook/cmake_prefix_path.ps1'
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/hook/cmake_prefix_path.dsv'
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/hook/cmake_prefix_path.sh'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/lib'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/bin'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/lib/pkgconfig/orbslam_pub.pc'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/lib/python3.10/site-packages'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/bin'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/package.ps1'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/package.dsv'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/package.sh'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/package.bash'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/orbslam_pub/package.zsh'
+[0.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub/share/colcon-core/packages/orbslam_pub)
+[0.669s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavlink' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavlink -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink
+[0.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavlink': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/mavlink -- -j16 -l16
+[2.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavlink' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/mavlink -- -j16 -l16
+[2.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavlink': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/mavlink
+[2.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavlink', 'pkg_config_path')
+[2.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/hook/pkg_config_path.ps1'
+[2.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavlink' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/mavlink
+[2.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/hook/pkg_config_path.dsv'
+[2.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/hook/pkg_config_path.sh'
+[2.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavlink', 'pkg_config_path_multiarch')
+[2.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/hook/pkg_config_path_multiarch.ps1'
+[2.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/hook/pkg_config_path_multiarch.dsv'
+[2.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/hook/pkg_config_path_multiarch.sh'
+[2.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavlink)
+[2.985s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink' for CMake module files
+[2.985s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink' for CMake config files
+[2.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavlink', 'cmake_prefix_path')
+[2.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/hook/cmake_prefix_path.ps1'
+[2.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/hook/cmake_prefix_path.dsv'
+[2.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/hook/cmake_prefix_path.sh'
+[2.987s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib'
+[2.987s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/bin'
+[2.987s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig/mavlink.pc'
+[2.987s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavlink', 'pkg_config')
+[2.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/hook/pkg_config.ps1'
+[2.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/hook/pkg_config.dsv'
+[2.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/hook/pkg_config.sh'
+[2.988s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/python3.10/site-packages'
+[2.988s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/bin'
+[2.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/package.ps1'
+[2.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/package.dsv'
+[2.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/package.sh'
+[2.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/package.bash'
+[2.989s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/mavlink/package.zsh'
+[2.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/share/colcon-core/packages/mavlink)
+[2.989s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/niraamay/isro_ros2_try/ros_ws/src/mavros/libmavconn' with build type 'ament_cmake'
+[2.989s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/niraamay/isro_ros2_try/ros_ws/src/mavros/libmavconn'
+[2.989s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.989s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavros/libmavconn -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn
+[3.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros_msgs -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs
+[3.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/mavros_msgs -- -j16 -l16
+[3.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavros/libmavconn -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn
+[3.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/libmavconn -- -j16 -l16
+[10.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/libmavconn -- -j16 -l16
+[10.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/libmavconn': CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/libmavconn
+[10.852s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libmavconn)
+[10.852s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn' for CMake module files
+[10.853s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn' for CMake config files
+[10.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'cmake_prefix_path')
+[10.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.ps1'
+[10.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.dsv'
+[10.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.sh'
+[10.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/libmavconn' returned '0': CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/libmavconn
+[10.857s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib'
+[10.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'ld_library_path_lib')
+[10.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.ps1'
+[10.857s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.dsv'
+[10.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.sh'
+[10.858s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/bin'
+[10.858s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib/pkgconfig/libmavconn.pc'
+[10.858s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib/python3.10/site-packages'
+[10.858s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/bin'
+[10.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/package.ps1'
+[10.859s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/package.dsv'
+[10.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/package.sh'
+[10.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/package.bash'
+[10.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/package.zsh'
+[10.860s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/colcon-core/packages/libmavconn)
+[10.861s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libmavconn)
+[10.861s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn' for CMake module files
+[10.861s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn' for CMake config files
+[10.862s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'cmake_prefix_path')
+[10.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.ps1'
+[10.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.dsv'
+[10.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/hook/cmake_prefix_path.sh'
+[10.863s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib'
+[10.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('libmavconn', 'ld_library_path_lib')
+[10.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.ps1'
+[10.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.dsv'
+[10.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/hook/ld_library_path_lib.sh'
+[10.864s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/bin'
+[10.864s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib/pkgconfig/libmavconn.pc'
+[10.864s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib/python3.10/site-packages'
+[10.865s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/bin'
+[10.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/package.ps1'
+[10.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/package.dsv'
+[10.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/package.sh'
+[10.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/package.bash'
+[10.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/libmavconn/package.zsh'
+[10.867s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/share/colcon-core/packages/libmavconn)
+[77.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/mavros_msgs -- -j16 -l16
+[77.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/mavros_msgs
+[77.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_msgs)
+[77.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/mavros_msgs
+[77.449s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs' for CMake module files
+[77.449s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs' for CMake config files
+[77.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'cmake_prefix_path')
+[77.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.ps1'
+[77.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.dsv'
+[77.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.sh'
+[77.452s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib'
+[77.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'ld_library_path_lib')
+[77.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.ps1'
+[77.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.dsv'
+[77.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.sh'
+[77.452s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/bin'
+[77.452s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib/pkgconfig/mavros_msgs.pc'
+[77.453s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib/python3.10/site-packages'
+[77.453s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/bin'
+[77.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/package.ps1'
+[77.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/package.dsv'
+[77.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/package.sh'
+[77.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/package.bash'
+[77.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/package.zsh'
+[77.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/colcon-core/packages/mavros_msgs)
+[77.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_msgs)
+[77.454s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs' for CMake module files
+[77.454s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs' for CMake config files
+[77.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'cmake_prefix_path')
+[77.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.ps1'
+[77.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.dsv'
+[77.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/hook/cmake_prefix_path.sh'
+[77.456s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib'
+[77.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_msgs', 'ld_library_path_lib')
+[77.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.ps1'
+[77.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.dsv'
+[77.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/hook/ld_library_path_lib.sh'
+[77.457s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/bin'
+[77.457s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib/pkgconfig/mavros_msgs.pc'
+[77.457s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib/python3.10/site-packages'
+[77.457s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/bin'
+[77.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/package.ps1'
+[77.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/package.dsv'
+[77.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/package.sh'
+[77.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/package.bash'
+[77.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/mavros_msgs/package.zsh'
+[77.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/share/colcon-core/packages/mavros_msgs)
+[77.463s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros' with build type 'ament_cmake'
+[77.463s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros'
+[77.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[77.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[77.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/mavros
+[78.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/mavros
+[78.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/mavros -- -j16 -l16
+[183.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/mavros -- -j16 -l16
+[183.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/mavros
+[183.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros)
+[183.649s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros' for CMake module files
+[183.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros' returned '0': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/mavros
+[183.650s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros' for CMake config files
+[183.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'cmake_prefix_path')
+[183.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/hook/cmake_prefix_path.ps1'
+[183.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/hook/cmake_prefix_path.dsv'
+[183.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/hook/cmake_prefix_path.sh'
+[183.652s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib'
+[183.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'ld_library_path_lib')
+[183.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/hook/ld_library_path_lib.ps1'
+[183.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/hook/ld_library_path_lib.dsv'
+[183.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/hook/ld_library_path_lib.sh'
+[183.653s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/bin'
+[183.653s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib/pkgconfig/mavros.pc'
+[183.653s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib/python3.10/site-packages'
+[183.653s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/bin'
+[183.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/package.ps1'
+[183.654s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/package.dsv'
+[183.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/package.sh'
+[183.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/package.bash'
+[183.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/package.zsh'
+[183.655s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/colcon-core/packages/mavros)
+[183.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros)
+[183.656s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros' for CMake module files
+[183.656s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros' for CMake config files
+[183.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'cmake_prefix_path')
+[183.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/hook/cmake_prefix_path.ps1'
+[183.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/hook/cmake_prefix_path.dsv'
+[183.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/hook/cmake_prefix_path.sh'
+[183.657s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib'
+[183.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros', 'ld_library_path_lib')
+[183.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/hook/ld_library_path_lib.ps1'
+[183.657s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/hook/ld_library_path_lib.dsv'
+[183.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/hook/ld_library_path_lib.sh'
+[183.657s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/bin'
+[183.657s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib/pkgconfig/mavros.pc'
+[183.658s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib/python3.10/site-packages'
+[183.658s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/bin'
+[183.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/package.ps1'
+[183.658s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/package.dsv'
+[183.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/package.sh'
+[183.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/package.bash'
+[183.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/mavros/package.zsh'
+[183.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro_ros2_try/ros_ws/install/mavros/share/colcon-core/packages/mavros)
+[183.659s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros_extras' with build type 'ament_cmake'
+[183.659s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros_extras'
+[183.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[183.659s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[183.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_extras': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros_extras -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras
+[184.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_extras' returned '0': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/niraamay/isro_ros2_try/ros_ws/src/mavros/mavros_extras -DCMAKE_INSTALL_PREFIX=/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras
+[184.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_extras': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/mavros_extras -- -j16 -l16
+[784.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_extras' returned '0': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/niraamay/isro_ros2_try/ros_ws/build/mavros_extras -- -j16 -l16
+[784.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_extras': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/mavros_extras
+[785.022s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_extras)
+[785.023s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras' for CMake module files
+[785.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/build/mavros_extras' returned '0': AMENT_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink:/home/niraamay/isro_ros2_try/ros_ws/install/orbslam_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_feed_pub:/home/niraamay/isro_ros2_try/ros_ws/install/camera_pub:/opt/ros/humble LD_LIBRARY_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros/lib:/home/niraamay/isro_ros2_try/ros_ws/install/libmavconn/lib:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/x86_64-linux-gnu/pkgconfig:/home/niraamay/isro_ros2_try/ros_ws/install/mavlink/lib/pkgconfig PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/install/mavros/local/lib/python3.10/dist-packages:/home/niraamay/isro_ros2_try/ros_ws/install/mavros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/niraamay/isro_ros2_try/ros_ws/build/mavros_extras
+[785.024s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras' for CMake config files
+[785.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'cmake_prefix_path')
+[785.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.ps1'
+[785.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.dsv'
+[785.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.sh'
+[785.027s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/lib'
+[785.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'ld_library_path_lib')
+[785.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.ps1'
+[785.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.dsv'
+[785.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.sh'
+[785.028s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/bin'
+[785.028s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/lib/pkgconfig/mavros_extras.pc'
+[785.028s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/lib/python3.10/site-packages'
+[785.029s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/bin'
+[785.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/package.ps1'
+[785.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/package.dsv'
+[785.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/package.sh'
+[785.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/package.bash'
+[785.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/package.zsh'
+[785.032s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/colcon-core/packages/mavros_extras)
+[785.032s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mavros_extras)
+[785.033s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras' for CMake module files
+[785.033s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras' for CMake config files
+[785.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'cmake_prefix_path')
+[785.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.ps1'
+[785.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.dsv'
+[785.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/hook/cmake_prefix_path.sh'
+[785.035s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/lib'
+[785.035s] Level 1:colcon.colcon_core.shell:create_environment_hook('mavros_extras', 'ld_library_path_lib')
+[785.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.ps1'
+[785.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.dsv'
+[785.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/hook/ld_library_path_lib.sh'
+[785.036s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/bin'
+[785.036s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/lib/pkgconfig/mavros_extras.pc'
+[785.036s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/lib/python3.10/site-packages'
+[785.036s] Level 1:colcon.colcon_core.environment:checking '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/bin'
+[785.037s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/package.ps1'
+[785.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/package.dsv'
+[785.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/package.sh'
+[785.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/package.bash'
+[785.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/mavros_extras/package.zsh'
+[785.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niraamay/isro_ros2_try/ros_ws/install/mavros_extras/share/colcon-core/packages/mavros_extras)
+[785.039s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[785.039s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[785.039s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[785.039s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[785.050s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[785.050s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[785.050s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[785.053s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[785.053s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niraamay/isro_ros2_try/ros_ws/install/local_setup.ps1'
+[785.054s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/niraamay/isro_ros2_try/ros_ws/install/_local_setup_util_ps1.py'
+[785.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niraamay/isro_ros2_try/ros_ws/install/setup.ps1'
+[785.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niraamay/isro_ros2_try/ros_ws/install/local_setup.sh'
+[785.058s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/niraamay/isro_ros2_try/ros_ws/install/_local_setup_util_sh.py'
+[785.058s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niraamay/isro_ros2_try/ros_ws/install/setup.sh'
+[785.059s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niraamay/isro_ros2_try/ros_ws/install/local_setup.bash'
+[785.060s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niraamay/isro_ros2_try/ros_ws/install/setup.bash'
+[785.061s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niraamay/isro_ros2_try/ros_ws/install/local_setup.zsh'
+[785.061s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niraamay/isro_ros2_try/ros_ws/install/setup.zsh'

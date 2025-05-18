@@ -1,0 +1,26 @@
+[0.922s] Invoking command in '/home/niraamay/isro_ros2_try/ros_ws/src/drone_control_pkg': PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/build/drone_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_control_pkg build --build-base /home/niraamay/isro_ros2_try/ros_ws/build/drone_control_pkg/build install --record /home/niraamay/isro_ros2_try/ros_ws/build/drone_control_pkg/install.log --single-version-externally-managed install_data
+[1.165s] running egg_info
+[1.166s] writing ../../build/drone_control_pkg/drone_control_pkg.egg-info/PKG-INFO
+[1.166s] writing dependency_links to ../../build/drone_control_pkg/drone_control_pkg.egg-info/dependency_links.txt
+[1.166s] writing entry points to ../../build/drone_control_pkg/drone_control_pkg.egg-info/entry_points.txt
+[1.167s] writing requirements to ../../build/drone_control_pkg/drone_control_pkg.egg-info/requires.txt
+[1.167s] writing top-level names to ../../build/drone_control_pkg/drone_control_pkg.egg-info/top_level.txt
+[1.168s] reading manifest file '../../build/drone_control_pkg/drone_control_pkg.egg-info/SOURCES.txt'
+[1.168s] adding license file 'LICENSE'
+[1.170s] writing manifest file '../../build/drone_control_pkg/drone_control_pkg.egg-info/SOURCES.txt'
+[1.170s] running build
+[1.170s] running build_py
+[1.170s] copying drone_control_pkg/__init__.py -> /home/niraamay/isro_ros2_try/ros_ws/build/drone_control_pkg/build/lib/drone_control_pkg
+[1.170s] running install
+[1.170s] running install_lib
+[1.170s] copying /home/niraamay/isro_ros2_try/ros_ws/build/drone_control_pkg/build/lib/drone_control_pkg/__init__.py -> /home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg/lib/python3.10/site-packages/drone_control_pkg
+[1.171s] byte-compiling /home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg/lib/python3.10/site-packages/drone_control_pkg/__init__.py to __init__.cpython-310.pyc
+[1.171s] running install_data
+[1.171s] copying resource/drone_control_pkg -> /home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg/share/ament_index/resource_index/packages
+[1.171s] copying package.xml -> /home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg/share/drone_control_pkg
+[1.171s] running install_egg_info
+[1.173s] removing '/home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg/lib/python3.10/site-packages/drone_control_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.173s] Copying ../../build/drone_control_pkg/drone_control_pkg.egg-info to /home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg/lib/python3.10/site-packages/drone_control_pkg-0.0.0-py3.10.egg-info
+[1.174s] running install_scripts
+[1.196s] writing list of installed files to '/home/niraamay/isro_ros2_try/ros_ws/build/drone_control_pkg/install.log'
+[1.221s] Invoked command in '/home/niraamay/isro_ros2_try/ros_ws/src/drone_control_pkg' returned '0': PS1=\[\033[1;32m\]\u@\h\[\033[0m\]:\[\033[1;34m\]\w\[\033[1;33m\]$(parse_git_branch)\[\033[0m\]$ PYTHONPATH=/home/niraamay/isro_ros2_try/ros_ws/build/drone_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/niraamay/isro_ros2_try/ros_ws/install/drone_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_control_pkg build --build-base /home/niraamay/isro_ros2_try/ros_ws/build/drone_control_pkg/build install --record /home/niraamay/isro_ros2_try/ros_ws/build/drone_control_pkg/install.log --single-version-externally-managed install_data

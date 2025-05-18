@@ -1,0 +1,11 @@
+source;share/mavros_extras/hook/cmake_prefix_path.ps1
+source;share/mavros_extras/hook/cmake_prefix_path.dsv
+source;share/mavros_extras/hook/cmake_prefix_path.sh
+source;share/mavros_extras/hook/ld_library_path_lib.ps1
+source;share/mavros_extras/hook/ld_library_path_lib.dsv
+source;share/mavros_extras/hook/ld_library_path_lib.sh
+source;share/mavros_extras/local_setup.bash
+source;share/mavros_extras/local_setup.dsv
+source;share/mavros_extras/local_setup.ps1
+source;share/mavros_extras/local_setup.sh
+source;share/mavros_extras/local_setup.zsh

@@ -1,0 +1,60 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from mavros_msgs/msg/OpenDroneIDSystem.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module mavros_msgs {
+  module msg {
+    module OpenDroneIDSystem_Constants {
+      @verbatim (language="comment", text=
+        "[[[cog:" "\n"        "import mavros_cog" "\n"        "mavros_cog.idl_decl_enum('MAV_ODID_OPERATOR_LOCATION_TYPE', 'LOCATION_TYPE_')" "\n"        "mavros_cog.idl_decl_enum('MAV_ODID_CLASSIFICATION_TYPE', 'CLASSIFICATION_TYPE_')" "\n"        "]]]" "\n"        "MAV_ODID_OPERATOR_LOCATION_TYPE" "\n"        "The location of the operator is the same as the take-off location.")
+      const uint8 LOCATION_TYPE_TAKEOFF = 0;
+      @verbatim (language="comment", text=
+        "The location of the operator is based on live GNSS data.")
+      const uint8 LOCATION_TYPE_LIVE_GNSS = 1;
+      @verbatim (language="comment", text=
+        "The location of the operator is a fixed location.")
+      const uint8 LOCATION_TYPE_FIXED = 2;
+      @verbatim (language="comment", text=
+        "MAV_ODID_CLASSIFICATION_TYPE" "\n"        "The classification type for the UA is undeclared.")
+      const uint8 CLASSIFICATION_TYPE_UNDECLARED = 0;
+      @verbatim (language="comment", text=
+        "The classification type for the UA follows EU (European Union) specifications.")
+      const uint8 CLASSIFICATION_TYPE_EU = 1;
+    };
+    @verbatim (language="comment", text=
+      "Remote ID message - System" "\n"
+      "https://mavlink.io/en/messages/common.html#OPEN_DRONE_ID_SYSTEM")
+    struct OpenDroneIDSystem {
+      @verbatim (language="comment", text=
+        "]] (checksum: 518034079daae18afbc49769bc1a1031)")
+      @unit (value="[[end")
+      std_msgs::msg::Header header;
+
+      string id_or_mac;
+
+      uint8 operator_location_type;
+
+      uint8 classification_type;
+
+      int32 operator_latitude;
+
+      int32 operator_longitude;
+
+      uint16 area_count;
+
+      uint16 area_radius;
+
+      float area_ceiling;
+
+      float area_floor;
+
+      uint8 category_eu;
+
+      uint8 class_eu;
+
+      float operator_altitude_geo;
+    };
+  };
+};
