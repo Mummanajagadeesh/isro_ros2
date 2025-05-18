@@ -1,8 +1,6 @@
 ORB_SLAM3/Vocabulary/ORBvoc.txt
 ORB_SLAM3/build/
-
-ros_ws/build/
-
+ros_ws/vocab.txt 
 */build/
 */install/
 */log/
