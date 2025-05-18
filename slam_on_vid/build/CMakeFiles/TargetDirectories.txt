@@ -1,3 +1,0 @@
-/home/niraamay/isro_ros2_try/slam_on_vid/build/CMakeFiles/slam_on_vid.dir
-/home/niraamay/isro_ros2_try/slam_on_vid/build/CMakeFiles/edit_cache.dir
-/home/niraamay/isro_ros2_try/slam_on_vid/build/CMakeFiles/rebuild_cache.dir

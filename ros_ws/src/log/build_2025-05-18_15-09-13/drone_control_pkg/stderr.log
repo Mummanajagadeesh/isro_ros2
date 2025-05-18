@@ -1,5 +1,0 @@
-  File "/home/niraamay/isro_ros2_try/ros_ws/src/install/drone_control_pkg/lib/python3.10/site-packages/drone_control_pkg/drone_controller.py", line 30
-    break
-    ^^^^^
-SyntaxError: 'break' outside loop
-

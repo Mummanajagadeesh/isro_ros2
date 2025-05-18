@@ -1,4 +1,0 @@
-source;share/mavros/environment/ament_prefix_path.sh
-source;share/mavros/environment/library_path.sh
-source;share/mavros/environment/path.sh
-source;share/mavros/environment/pythonpath.sh

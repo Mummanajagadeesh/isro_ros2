@@ -1,8 +1,0 @@
-prefix=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink
-exec_prefix=/home/niraamay/isro_ros2_try/ros_ws/install/mavlink
-includedir=${prefix}/include
-
-Name: mavlink
-Description: MAVLink micro air vehicle marshalling / communication library
-Version: 2025.5.5
-Cflags: -I${includedir}

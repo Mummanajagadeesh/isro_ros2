@@ -1,8 +1,0 @@
-[01m[K/home/niraamay/isro_ros2_try/ros_ws/src/orbslam_pub/src/orbslam_getpose.cpp:[m[K In member function ‘[01m[Kvoid PosePublisher::init()[m[K’:
-[01m[K/home/niraamay/isro_ros2_try/ros_ws/src/orbslam_pub/src/orbslam_getpose.cpp:31:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage_transport_[m[K’ was not declared in this scope; did you mean ‘[01m[Kimage_transport[m[K’?
-   31 |       [01;31m[Kimage_transport_[m[K = std::make_shared<image_transport::ImageTransport>(shared_from_this());
-      |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
-      |       [32m[Kimage_transport[m[K
-gmake[2]: *** [CMakeFiles/getpose.dir/build.make:76: CMakeFiles/getpose.dir/src/orbslam_getpose.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/getpose.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

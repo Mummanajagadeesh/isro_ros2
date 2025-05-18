@@ -1,3 +1,0 @@
-[console_scripts]
-py_img_sub = py_img_sub.py_img_sub:main
-

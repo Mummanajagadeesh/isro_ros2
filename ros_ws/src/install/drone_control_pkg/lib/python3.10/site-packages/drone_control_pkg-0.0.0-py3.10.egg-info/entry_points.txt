@@ -1,3 +1,0 @@
-[console_scripts]
-drone_controller = drone_control_pkg.drone_controller:main
-

@@ -3,3 +3,6 @@ ORB_SLAM3/build/
 
 ros_ws/build/
 
+*/build/
+*/install/
+*/log/
