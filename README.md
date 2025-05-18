@@ -55,7 +55,7 @@ source ~/isro_ros2_try/ros_ws/install/local_setup.bash
 
 In one terminal:
 ```bash
-ros2 run camera_feed_pub camera
+ros2 run camera_feed_pub camera_feed_pub
 ```
 
 In another terminal:
