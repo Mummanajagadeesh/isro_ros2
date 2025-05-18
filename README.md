@@ -58,3 +58,19 @@ In another terminal:
 source install/local_setup.bash
 ros2 run orbslam_pub getpose vocab.txt settings.yaml
 ```
+
+# For SLAM ON VIDEO TEST
+
+```bash
+cd slam_on_vid
+mkdir build
+cd build
+cmake ..
+make 
+./slam_on_vid ../../ORB_SLAM3/Vocabulary/ORBvoc.txt ../settings.yaml ../test_vid.mp4
+```
+
+To plot the trajectory:
+```bash
+python3 plot_trajectory.py
+```
