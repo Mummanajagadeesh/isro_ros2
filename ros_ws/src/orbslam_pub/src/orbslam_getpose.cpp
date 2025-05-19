@@ -59,8 +59,9 @@ class PosePublisher : public rclcpp::Node {
     Sophus::SE3f Tcw_SE3 = slam_->TrackMonocular(gray, camera_feed_published_timestamp);
 
     if (!Tcw_SE3.matrix().isZero()) {
-      Eigen::Vector3f t = Tcw_SE3.translation();
-      Eigen::Quaternionf q = Tcw_SE3.unit_quaternion();
+      Sophus::SE3f Twc_SE3 = Tcw_SE3.inverse();
+      Eigen::Vector3f t = Twc_SE3.translation();
+      Eigen::Quaternionf q = Twc_SE3.unit_quaternion();
 
       auto pose_msg = geometry_msgs::msg::Pose();
       pose_msg.position.x = t[0];
