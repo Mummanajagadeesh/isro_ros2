@@ -4,3 +4,4 @@ ros_ws/vocab.txt
 */build/
 */install/
 */log/
+*.swp
