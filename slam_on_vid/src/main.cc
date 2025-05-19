@@ -49,23 +49,31 @@ int main(int argc, char **argv) {
         auto timestamp_seconds = std::chrono::duration_cast<std::chrono::duration<double>>(timestamp.time_since_epoch()).count();
 
         if (imageScale != 1.f) {
-            // TODO: Resize image based on scale
-        }
+          int new_width = frame.cols * imageScale;
+          int new_height = frame.rows * imageScale;
 
-        Sophus::SE3f Tcw_SE3 = SLAM.TrackMonocular(frame,timestamp_seconds);
+          resize(frame, frame, Size(new_width, new_height));
+        }
+      
+        Mat gray;
+        cvtColor(frame, gray, cv::COLOR_BGR2GRAY);
+
+        Sophus::SE3f Tcw_SE3 = SLAM.TrackMonocular(gray,timestamp_seconds);
 
         if (!Tcw_SE3.matrix().isZero()) {
             Eigen::Vector3f tcw = Tcw_SE3.translation();
-            std::cout << "Frame " << ni << " | Timestamp: " << timestamp_seconds << " | Translation (tcw): ";
-            std::cout << "[" << tcw.x() << ", " << tcw.y() << ", " << tcw.z() << "]\n";
-
             Sophus::SE3f Twc_SE3 = Tcw_SE3.inverse();
+            Eigen::Vector3f twc = Twc_SE3.translation();
+
+            std::cout << "Frame " << ni << " | Timestamp: " << timestamp_seconds << " | Translation (tcw): ";
+            std::cout << "[" << twc.x() << ", " << twc.y() << ", " << twc.z() << "]\n";
+
             traj.push_back(Twc_SE3);
         }
 
         ni += 1;
 
-        waitKey(1); // 1ms delay
+        //waitKey(1); // 1ms delay
     }
 
     SLAM.Shutdown();
