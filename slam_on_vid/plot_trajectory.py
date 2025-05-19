@@ -77,22 +77,21 @@ def plot_camera_trajectory(file_path):
     plt.tight_layout()
     plt.show()
     
-    # Also create a 2D top-down view (X-Z plane)
+    # Also create a 2D top-down view (X-Y plane)
     plt.figure(figsize=(10, 8))
-    plt.plot(positions[:, 0], positions[:, 2], 'b-', linewidth=1)
-    plt.scatter(positions[0, 0], positions[0, 2], c='green', marker='o', s=100, label='Start')
-    plt.scatter(positions[-1, 0], positions[-1, 2], c='red', marker='o', s=100, label='End')
-    plt.scatter(positions[:, 0], positions[:, 2], c=timestamps, cmap='viridis', s=10)
+    plt.plot(positions[:, 0], positions[:, 1], 'b-', linewidth=1)
+    plt.scatter(positions[0, 0], positions[0, 1], c='green', marker='o', s=100, label='Start')
+    plt.scatter(positions[-1, 0], positions[-1, 1], c='red', marker='o', s=100, label='End')
+    plt.scatter(positions[:, 0], positions[:, 1], c=timestamps, cmap='viridis', s=10)
     plt.colorbar(label='Timestamp')
     plt.xlabel('X (m)')
-    plt.ylabel('Z (m)')
+    plt.ylabel('Y (m)')  # Changed from Z to Y
     plt.title('Camera Trajectory (Top-Down View)')
     plt.axis('equal')
     plt.grid(True)
     plt.legend()
     plt.tight_layout()
     plt.show()
-
 if __name__ == "__main__":
     # Replace with your trajectory file path
     trajectory_file = "trajectory.txt"
