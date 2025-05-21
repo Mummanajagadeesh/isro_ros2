@@ -58,11 +58,12 @@ int main(int argc, char **argv) {
         auto timestamp = std::chrono::high_resolution_clock::now();
         auto timestamp_seconds = std::chrono::duration_cast<std::chrono::duration<double>>(timestamp.time_since_epoch()).count();
 
-        float imageScale = 1.00;
+        float imageScale = 0.333;
+
         int new_width = frame.cols * imageScale;
         int new_height = frame.rows * imageScale;
 
-        resize(frame, frame, Size(new_width, new_height));
+        //resize(frame, frame, Size(new_width, new_height));
       
         Mat gray;
         cvtColor(frame, gray, cv::COLOR_BGR2GRAY);
