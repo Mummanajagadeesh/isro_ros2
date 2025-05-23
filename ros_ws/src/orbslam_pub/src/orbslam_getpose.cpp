@@ -8,7 +8,7 @@
 #include "std_msgs/msg/string.hpp"
 #include "sensor_msgs/msg/image.hpp"
 #include "std_msgs/msg/float32.hpp"
-#include "geometry_msgs/msg/pose.hpp"
+#include "geometry_msgs/msg/pose_stamped.hpp"
 #include "cv_bridge/cv_bridge.h"
 #include "image_transport/image_transport.hpp"
 
@@ -19,7 +19,7 @@ class PosePublisher : public rclcpp::Node {
     PosePublisher(const std::string& vocab_file, const std::string& settings_file) : Node("pose_publisher")
     { 
       slam_ = std::make_shared<ORB_SLAM3::System>(vocab_file, settings_file, ORB_SLAM3::System::MONOCULAR, true);
-      pose_publisher_ = this->create_publisher<geometry_msgs::msg::Pose>("orbslam_pose", 10);
+      pose_publisher_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("orbslam_pose", 10);
     }
 
     void init() {
@@ -49,12 +49,11 @@ class PosePublisher : public rclcpp::Node {
     cv::Mat gray;
     cv::cvtColor(cv_ptr->image, gray, cv::COLOR_BGR2GRAY);
 
-    cv::imshow("ORB-SLAM Live Feed", cv_ptr->image);
+    cv::imshow("ORB-SLAM Live Feed", gray);
     cv::waitKey(1);
 
     double camera_feed_published_timestamp = msg->header.stamp.sec + (msg->header.stamp.nanosec / 1e9);
     double camera_feed_received_timestamp = this->now().seconds();
-    RCLCPP_INFO(this->get_logger(), "\nCamera Feed Published at: %f\nCamera Feed Received at: %f (Difference : %f)", camera_feed_published_timestamp, camera_feed_received_timestamp, camera_feed_received_timestamp - camera_feed_published_timestamp);
 
     Sophus::SE3f Tcw_SE3 = slam_->TrackMonocular(gray, camera_feed_published_timestamp);
 
@@ -63,26 +62,42 @@ class PosePublisher : public rclcpp::Node {
       Eigen::Vector3f t = Twc_SE3.translation();
       Eigen::Quaternionf q = Twc_SE3.unit_quaternion();
 
-      auto pose_msg = geometry_msgs::msg::Pose();
-      pose_msg.position.x = t[0];
-      pose_msg.position.y = t[1];
-      pose_msg.position.z = t[2];
-      pose_msg.orientation.x = q.x();
-      pose_msg.orientation.y = q.y();
-      pose_msg.orientation.z = q.z();
-      pose_msg.orientation.w = q.w();
+      auto pose_msg = geometry_msgs::msg::PoseStamped();
+      pose_msg.pose.position.x = t[0];
+      pose_msg.pose.position.y = t[1];
+      pose_msg.pose.position.z = t[2];
+      pose_msg.pose.orientation.x = q.x();
+      pose_msg.pose.orientation.y = q.y();
+      pose_msg.pose.orientation.z = q.z();
+      pose_msg.pose.orientation.w = q.w();
+
+      pose_msg.header.frame_id = "base_frame";
+      pose_msg.header.stamp = msg->header.stamp;
 
       pose_publisher_->publish(pose_msg);
 
+      // ADD THIS IN THE DRONECONTROL NODE
+      if (
+        t[0] == 0.0 &&
+        t[1] == 0.0 &&
+        t[2] == 0.0 &&
+        q.x() == 0.0 &&
+        q.y() == 0.0 &&
+        q.z() == 0.0 &&
+        q.w() == 1.0
+      ) {
+        RCLCPP_INFO(this->get_logger(), "ORB SLAM NOT TRACKING!");
+      }
+
       double slam_published_timestamp = this->now().seconds();
-      RCLCPP_INFO(this->get_logger(), "\nPose Published at: %f (Processing Time: %f)", slam_published_timestamp, slam_published_timestamp - camera_feed_received_timestamp);
+      RCLCPP_INFO(this->get_logger(), "Camera feed lag: %f, Processing time: %f)", camera_feed_received_timestamp - camera_feed_published_timestamp, slam_published_timestamp - camera_feed_received_timestamp);
     }
 
   }
   std::shared_ptr<ORB_SLAM3::System> slam_;
   std::shared_ptr<image_transport::ImageTransport> image_transport_;
   image_transport::Subscriber subscription_;
-  rclcpp::Publisher<geometry_msgs::msg::Pose>::SharedPtr pose_publisher_;
+  rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr pose_publisher_;
 };
 
 int main(int argc, char * argv[])
