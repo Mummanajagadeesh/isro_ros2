@@ -76,15 +76,15 @@ class PosePublisher : public rclcpp::Node {
 
       pose_publisher_->publish(pose_msg);
 
-      // ADD THIS IN THE DRONECONTROL NODE
+      // ADD THIS IN THE DRONE CONTROL NODE
       if (
-        t[0] == 0.0 &&
-        t[1] == 0.0 &&
-        t[2] == 0.0 &&
-        q.x() == 0.0 &&
-        q.y() == 0.0 &&
-        q.z() == 0.0 &&
-        q.w() == 1.0
+        t[0] == 0.00000 &&
+        t[1] == 0.00000 &&
+        t[2] == 0.00000 &&
+        q.x() == 0.00000 &&
+        q.y() == 0.00000 &&
+        q.z() == 0.00000 &&
+        q.w() == 1.00000
       ) {
         RCLCPP_INFO(this->get_logger(), "ORB SLAM NOT TRACKING!");
       }
