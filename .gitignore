@@ -5,3 +5,4 @@ ros_ws/vocab.txt
 */install/
 */log/
 *.swp
+*.mp4
