@@ -7,10 +7,16 @@
 #include "rclcpp/rclcpp.hpp" 
 #include "std_msgs/msg/string.hpp"
 #include "sensor_msgs/msg/image.hpp"
+#include "sensor_msgs/msg/imu.hpp"
 #include "std_msgs/msg/float32.hpp"
 #include "geometry_msgs/msg/pose_stamped.hpp"
 #include "cv_bridge/cv_bridge.h"
 #include "image_transport/image_transport.hpp"
+
+#include "rclcpp/qos.hpp"
+
+using std::placeholders::_1;
+
 
 #include "System.h"
 
@@ -20,9 +26,14 @@ class PosePublisher : public rclcpp::Node {
     { 
       slam_ = std::make_shared<ORB_SLAM3::System>(vocab_file, settings_file, ORB_SLAM3::System::MONOCULAR, true);
       pose_publisher_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("orbslam_pose", 10);
+      imu_subscription_ = this->create_subscription<sensor_msgs::msg::Imu>(
+        "mavros/imu/data",
+        rclcpp::SensorDataQoS(),
+        std::bind(&PosePublisher::imu_sub_cb, this, _1)
+      );
     }
 
-    void init() {
+    void camera_sub_init() {
       image_transport_ = std::make_shared<image_transport::ImageTransport>(shared_from_this());
       subscription_ = image_transport_->subscribe(
         "camera_feed/image_raw",  
@@ -94,10 +105,17 @@ class PosePublisher : public rclcpp::Node {
     }
 
   }
+  
+  // callback for the imu data
+  void imu_sub_cb(const sensor_msgs::msg::Imu::ConstSharedPtr& msg){
+    RCLCPP_INFO(this->get_logger(), "Received IMU");
+  } 
+
   std::shared_ptr<ORB_SLAM3::System> slam_;
   std::shared_ptr<image_transport::ImageTransport> image_transport_;
   image_transport::Subscriber subscription_;
   rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr pose_publisher_;
+  rclcpp::Subscription<sensor_msgs::msg::Imu>::SharedPtr imu_subscription_;
 };
 
 int main(int argc, char * argv[])
@@ -109,7 +127,7 @@ int main(int argc, char * argv[])
 
   rclcpp::init(argc, argv);
   auto node = std::make_shared<PosePublisher>(argv[1], argv[2]);
-  node->init();
+  node->camera_sub_init();
   rclcpp::spin(node);
 
   rclcpp::shutdown();
