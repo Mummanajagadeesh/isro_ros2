@@ -68,6 +68,7 @@ int main(int argc, char **argv) {
         Mat gray;
         cvtColor(frame, gray, cv::COLOR_BGR2GRAY);
         imshow("FRAME GIVEN TO ORB SLAM", gray);
+      
         Sophus::SE3f Tcw_SE3 = SLAM.TrackMonocular(gray,timestamp_seconds);
 
         if (!Tcw_SE3.matrix().isZero()) {
@@ -82,6 +83,7 @@ int main(int argc, char **argv) {
         }
 
         ni += 1;
+      
         //waitKey(1); // 1ms delay
     }
 
@@ -105,4 +107,3 @@ int main(int argc, char **argv) {
 
     return 0;
 }
-
