@@ -1,0 +1,11 @@
+z=1.1202
+x=2.428
+
+real_height=82
+real_length=98
+
+scale_factor = real_height/z = 82/1.1202 = 73.201
+
+calc_length = 73.201*2.428 = 177.73
+
+

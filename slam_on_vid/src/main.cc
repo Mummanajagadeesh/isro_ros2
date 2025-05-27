@@ -10,12 +10,19 @@ using namespace std;
 using namespace cv;
 
 int main(int argc, char **argv) {
-    if (argc < 4) {
-        cerr << endl << "Usage: ./slam_on_vid <path_to_vocab> <path_to_settings> <path_to_video>" << endl;
+    if (argc < 3) {
+        cerr << endl << "Usage: ./slam_on_vid <path_to_vocab> <path_to_settings> <path_to_video or webcam if left empty>" << endl;
         return 1;
     }
 
-    VideoCapture cap(argv[3]);
+    VideoCapture cap;
+
+    if (argc == 3) {
+      cap.open(0);
+    }
+    else {
+      cap.open(argv[3]);
+    }
 
     if (!cap.isOpened()) {
         cerr << "Error opening video file" << endl;
@@ -28,6 +35,9 @@ int main(int argc, char **argv) {
     cout << "VIDEO DIMENSIONS: " << width << " x " << height << endl;
 
     ORB_SLAM3::System SLAM(argv[1], argv[2], ORB_SLAM3::System::MONOCULAR, true);
+
+    cout << "\n\n SLAM INITIALIZED \n\n";
+
     float imageScale = SLAM.GetImageScale();
 
     int ni = 0;
@@ -48,16 +58,17 @@ int main(int argc, char **argv) {
         auto timestamp = std::chrono::high_resolution_clock::now();
         auto timestamp_seconds = std::chrono::duration_cast<std::chrono::duration<double>>(timestamp.time_since_epoch()).count();
 
-        if (imageScale != 1.f) {
-          int new_width = frame.cols * imageScale;
-          int new_height = frame.rows * imageScale;
+        float imageScale = 0.333;
 
-          resize(frame, frame, Size(new_width, new_height));
-        }
+        int new_width = frame.cols * imageScale;
+        int new_height = frame.rows * imageScale;
+
+        //resize(frame, frame, Size(new_width, new_height));
       
         Mat gray;
         cvtColor(frame, gray, cv::COLOR_BGR2GRAY);
-
+        imshow("FRAME GIVEN TO ORB SLAM", gray);
+      
         Sophus::SE3f Tcw_SE3 = SLAM.TrackMonocular(gray,timestamp_seconds);
 
         if (!Tcw_SE3.matrix().isZero()) {
@@ -72,7 +83,7 @@ int main(int argc, char **argv) {
         }
 
         ni += 1;
-
+      
         //waitKey(1); // 1ms delay
     }
 
