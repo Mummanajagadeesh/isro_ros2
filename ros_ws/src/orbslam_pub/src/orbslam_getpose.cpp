@@ -13,6 +13,8 @@
 #include "cv_bridge/cv_bridge.h"
 #include "image_transport/image_transport.hpp"
 
+#include "ImuTypes.h"
+
 #include "rclcpp/qos.hpp"
 
 using std::placeholders::_1;
@@ -24,7 +26,7 @@ class PosePublisher : public rclcpp::Node {
   public:
     PosePublisher(const std::string& vocab_file, const std::string& settings_file) : Node("pose_publisher")
     { 
-      slam_ = std::make_shared<ORB_SLAM3::System>(vocab_file, settings_file, ORB_SLAM3::System::MONOCULAR, true);
+      slam_ = std::make_shared<ORB_SLAM3::System>(vocab_file, settings_file, ORB_SLAM3::System::IMU_MONOCULAR, true);
       pose_publisher_ = this->create_publisher<geometry_msgs::msg::PoseStamped>("orbslam_pose", 10);
       imu_subscription_ = this->create_subscription<sensor_msgs::msg::Imu>(
         "mavros/imu/data",
@@ -47,6 +49,9 @@ class PosePublisher : public rclcpp::Node {
     }
 
   private:
+
+  vector<ORB_SLAM3::IMU::Point> imu_meas;
+
   void image_callback(const sensor_msgs::msg::Image::ConstSharedPtr& msg) {
     cv_bridge::CvImagePtr cv_ptr;
 
@@ -60,13 +65,10 @@ class PosePublisher : public rclcpp::Node {
     cv::Mat gray;
     cv::cvtColor(cv_ptr->image, gray, cv::COLOR_BGR2GRAY);
 
-    cv::imshow("ORB-SLAM Live Feed", gray);
-    cv::waitKey(1);
-
     double camera_feed_published_timestamp = msg->header.stamp.sec + (msg->header.stamp.nanosec / 1e9);
     double camera_feed_received_timestamp = this->now().seconds();
 
-    Sophus::SE3f Tcw_SE3 = slam_->TrackMonocular(gray, camera_feed_published_timestamp);
+    Sophus::SE3f Tcw_SE3 = slam_->TrackMonocular(gray, camera_feed_published_timestamp, imu_meas);
 
     if (!Tcw_SE3.matrix().isZero()) {
       Sophus::SE3f Twc_SE3 = Tcw_SE3.inverse();
@@ -87,28 +89,26 @@ class PosePublisher : public rclcpp::Node {
 
       pose_publisher_->publish(pose_msg);
 
-      // ADD THIS IN THE DRONE CONTROL NODE
-      if (
-        t[0] == 0.00000 &&
-        t[1] == 0.00000 &&
-        t[2] == 0.00000 &&
-        q.x() == 0.00000 &&
-        q.y() == 0.00000 &&
-        q.z() == 0.00000 &&
-        q.w() == 1.00000
-      ) {
-        RCLCPP_INFO(this->get_logger(), "ORB SLAM NOT TRACKING!");
-      }
-
       double slam_published_timestamp = this->now().seconds();
       RCLCPP_INFO(this->get_logger(), "Camera feed lag: %f, Processing time: %f)", camera_feed_received_timestamp - camera_feed_published_timestamp, slam_published_timestamp - camera_feed_received_timestamp);
     }
 
+    imu_meas.clear();
   }
   
   // callback for the imu data
   void imu_sub_cb(const sensor_msgs::msg::Imu::ConstSharedPtr& msg){
     RCLCPP_INFO(this->get_logger(), "Received IMU");
+    double imu_timestamp = msg->header.stamp.sec + (msg->header.stamp.nanosec / 1e9);
+    imu_meas.push_back(ORB_SLAM3::IMU::Point(
+      msg->linear_acceleration.x,
+      msg->linear_acceleration.y,
+      msg->linear_acceleration.z,
+      msg->angular_velocity.x,
+      msg->angular_velocity.y,
+      msg->angular_velocity.z,
+      imu_timestamp
+    ));
   } 
 
   std::shared_ptr<ORB_SLAM3::System> slam_;

@@ -18,6 +18,7 @@ class DroneController(Node):
         self.arm_future = None
         self.disarm_future = None
         self.set_mode_future = None
+        self.slam_tracking_state = False
 
         self.pose_buffer = deque(maxlen=10)
 
@@ -103,11 +104,28 @@ class DroneController(Node):
 
 
     def slam_cb(self, msg):
+        pos_x = msg.pose.position.x
+        pos_y = msg.pose.position.y
+        pos_z = msg.pose.position.z
+        q_x = msg.pose.orientation.x
+        q_y = msg.pose.orientation.y
+        q_z = msg.pose.orientation.z
+        q_w = msg.pose.orientation.w
+
+        # to check if orb slam is not actually tracking now
+        if all([pos_x, pos_y, pos_z, q_x, q_y, q_z]) and q_w == 1.000:
+            if self.slam_tracking_state:
+                print("ORB SLAM STOPPED TRACKING!")
+                self.slam_tracking_state = False
+            return
+        
         print("*** RECEIVED SLAM POSE ***")
         print(f"Timestamp: {msg.header.stamp}")
-        print(f"Position: {msg.pose.position}")
-        print(f"Orientation: {msg.pose.orientation}")
+        print(f"Position: {pos_x} {pos_y} {pos_z}")
+        print(f"Orientation: {q_x} {q_y} {q_z} {q_w}")
         print("**************************")
+
+        self.slam_tracking_state = True
 
         self.pose_buffer.append(msg)
 
@@ -155,7 +173,7 @@ class DroneController(Node):
             finally:
                 self.set_mode_future = None 
         
-        
+
  
 
 def main(args=None):
