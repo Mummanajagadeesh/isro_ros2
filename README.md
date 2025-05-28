@@ -1,5 +1,36 @@
 # Installation 
 
+## ROS2 
+
+**Nodes:**
+- mavros
+- drone_control_pkg/drone_controller
+- orbslam_pub/getpose
+- camera_feed_pub
+
+
+**Running the nodes**
+
+Run these in different terminals:
+
+```bash
+ros2 run mavros mavros_node --ros-args -p fcu_url:=/dev/ttyACM0:57600 -p gcs_url:=udp://@localhost:14550
+```
+
+```bash
+ros2 run drone_control_pkg drone_controller
+```
+
+```bash
+cd ros_ws/src/drone_control_pkg/drone_control_pkg 
+python3 manual_controller.py
+```
+
+```bash
+ros2 run orbslam_pub getpose ../../ORB_SLAM3/Vocabulary/ORBVoc.txt ../settings_imu.yaml
+```
+
+
 ## ORBSLAM Installation:
 
 Library dependencies:
