@@ -110,4 +110,25 @@ To plot the trajectory:
 ```bash
 python3 plot_trajectory.py
 ```
+---
 
+---
+### Docker Setup
+
+Commands
+```
+docker exec -it isro_container bash
+```
+(OR docker start -ai isro_container, if not started already)
+
+```
+cd /docker_vol
+PYTHONPATH=/docker_vol/kmsxx/build/py:/isro_ros2_try/libcamera/build/src/py python3 stream.py
+```
+
+In browser
+```
+http://ifconfig_address:7123
+```
+
+Don't forget to do ifconfig inside the docker for this
